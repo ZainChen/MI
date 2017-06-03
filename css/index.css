@@ -1,0 +1,1105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
+/*换肤功能模块样式*/
+#change_skin {
+  height: 0px;
+  /*background: rgba(61,163,239,0.5);*/
+  position: fixed;  /*绝对定位*/
+  z-index: 30;
+/*  transition: 0.3s;*/
+}
+/*换肤按钮样式*/
+#change_skin #button_open {
+  float: right;
+  background: rgba(255,103,0,0.3);
+  /*transition: 0.3s;*/
+}
+/*选择皮肤模块样式*/
+#change_skin #button_option {
+  float: left;
+  background: rgba(255,103,0,0.3);
+}
+/*返回顶部按钮样式*/
+#return_top {
+  position: fixed;  /*绝对定位*/
+  bottom: 50px;
+  background: rgba(100,100,100,0.5);
+}
+/*=======================顶部菜单总样式============================*/
+#top_menu {
+}
+/*顶部第一个菜单总样式*/
+#top_menu #top_menu1 {
+  background: #333333;
+}
+#top_menu #top_menu1 #top_menu1_middle {
+  height: 100%;
+  background: #333333;
+  margin: auto;  /*左右居中*/
+}
+#top_menu1_middle_left {
+  float: left;
+}
+#top_menu1_middle a {
+  text-decoration: none;  /*去下划线*/
+  font-size: 12px;  /*文字大小*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  color: #b0b0b0;  /*文字颜色*/
+}
+#top_menu1_middle a:hover {
+  color: #fff;
+}
+#top_menu1_middle span {
+  line-height: 40px;  /*文字的行高*/
+  font-family: Arial;  /*文字样式*/
+  font-size: 12px;  /*文字大小*/
+  color: #424242;
+}
+#top_menu1_middle_right {
+  float: right;
+}
+#top_menu1_middle_right_info {
+  float: left;
+}
+#top_menu1_middle_right_info_users {
+  float: left;
+  position: relative;
+  z-index: 10;
+}
+#top_menu1_middle_right_info_user {
+  display: block;  /*将span简化为块级元素*/
+  text-align: center;
+  transition: 0.2s;
+}
+#top_menu1_middle_right_info_usering {
+  width: 100%;
+  padding-top: 0%;
+  background: #fff;
+  box-shadow: -2px 5px 5px rgba(0,0,0,0.2), 2px 5px 5px rgba(0,0,0,0.2), 0 -10px 10px rgba(0,0,0,0), 0 10px 10px rgba(0,0,0,0);/*左边阴影*//*右边阴影*//*顶部阴影*//*底边阴影*/
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+  transition: 0.2s;
+}
+#top_menu1_middle_right_info_useringcontent {
+  width: 100%;
+  height: 95%;
+}
+#ul_text {
+  display: none;  /*使元素不会显示,值改为block会显示*/
+  list-style-type: none;  /*不显示每行前面的点*/
+  /*transition: 1s;*/
+}
+#ul_text li {
+  text-align: center;
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  color: #808080;  /*文字颜色*/
+  line-height: 267%;
+  transition: 0.3s;
+}
+#ul_text li:hover {
+  background: #F5F5F5;
+  cursor: pointer;  /*鼠标样式*/
+  color: #FF6700;
+}
+#top_menu1_middle_right_shopping {
+  float: right;
+  background: #424242;
+  text-align: center;
+}
+#top_menu1_middle_right_shoppingcar {
+  transition: 0.3s;
+}
+#top_menu1_middle_right_shoppingcar:hover {
+  /*background: #fff;*/
+  cursor: pointer;
+}
+#top_menu1_middle_right_shoppinging {
+  float: right;
+  background: #fff;
+  box-shadow: -2px 5px 5px rgba(0,0,0,0.2), 2px 5px 5px rgba(0,0,0,0.2), 0 -10px 10px rgba(0,0,0,0), 0 10px 10px rgba(0,0,0,0);/*左边阴影*//*右边阴影*//*顶部阴影*//*底边阴影*/
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+  position: relative;
+  z-index: 10;
+  transition: 0.15s;
+}
+#span_shopping {
+  display: none;  /*使元素不会显示,值改为block会显示*/
+  font-size: 14px;  /*文字大小*/
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  color: #808080;  /*文字颜色*/
+  transition: 0.3s;
+}
+/*=============================顶部第二个菜单总样式============================*/
+#top_menu #top_menu2 {
+  background: #fff;
+}
+/*顶部第二个菜单的中间部分样式*/
+#top_menu #top_menu2 #top_menu2_middle {
+  height: 100%;
+  /*background: rgba(255,0,0, 0.2);*/
+  margin: auto;
+}
+#top_menu2_middle_leftmi {
+  float: left;
+}
+#top_menu2_middle_leftmi:hover {
+  cursor: pointer;  /*鼠标样式*/
+}
+@font-face {  /*引用外部字体*/
+  font-family: ScottSoft; /*这里是说明调用来的字体名字*/ 
+  src: url('../typeface/ScottSoft.ttf'); /*这里是字体文件路径*/ 
+}
+#top_menu2_middle_leftmitext {
+  width: 100%;
+  background: #FF6700;
+  text-align: center;
+  font-family: "ScottSoft";
+  color: #fff;
+}
+#top_menu2_middle_imggif {
+  float: left;
+  margin-left: 1.3%;
+}
+#top_menu2_middle_imggif:hover {
+  cursor: pointer;  /*鼠标样式*/
+}
+#top_menu2_middle_menus {
+  float: left;
+  /*width: 53.45%;*/
+  height: 50px;
+  /*background: yellow;*/
+}
+#top_menu2_middle_menus ul {
+  list-style-type: none;  /*不显示每行前面的点*/
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  transition: 0.3s;
+}
+#top_menu2_middle_menus li {
+  float: left;
+  transition: 0.3s;
+}
+#top_menu2_middle_menus a {
+  text-decoration: none;  /*去下划线*/
+  display: block;
+  color: #333333;
+  /*font-size: 16px;*/
+  /*padding-left: 11px;
+  padding-right: 11px;*/
+  padding-top: 22px;
+  padding-bottom: 39px;
+  /*background: #eee;*/
+}
+#top_menu2_middle_menus a:hover {
+  color: #FF6700;
+  /*background: #ccc;*/
+}
+#top_menu2_hide {
+  /*float: left;*/
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+#top_menu2_hide_line {
+  /*float: left;*/
+  border: 0px solid #e0e0e0;
+}
+#top_menu2_hide_middle {
+  height: 100%;
+  margin: auto;
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  /*background: yellow;*/
+  transition: 0.2s;
+}
+#top_menu2_hide_middle ul {
+  display: none;  /*使元素不会显示,值改为block会显示*/
+  list-style-type: none;  /*不显示每行前面的点*/
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+}
+#top_menu2_hide_middle li {
+  float: left;
+  width: 16.666666%;
+  height: 90%;
+  /*background: #EEE;*/
+  /*border-left: 2px solid ;*/
+}
+#top_menu2_hide_middle li:hover {
+  background: #EEE;
+}
+#top_menu2_hide_middle table {
+  float: left;
+  margin-top: 15%;
+  width: 1.5px;
+  height: 60%;
+  background: #e0e0e0;
+}
+
+#top_menu2_hide_middle div {
+  margin: auto;
+  margin-top: 15%;
+  width: 88.24%;
+  /*height: 80%;*/
+  background: #fff;
+}
+#top_menu2_hide_middle img {
+  /*display: block;*/
+  height: 75%;
+  /*margin: auto;*/
+}
+#top_menu2_hide_middle a {
+  text-decoration: none;  /*去下划线*/
+  color: #333; /*#ff6700;*/
+  /*font-size: 14px;*/
+  text-align: center;
+}
+#top_menu2_hide_middle p {
+  /*padding-top: 8px;*/
+}
+#top_menu2_hide_middle span {
+  display: block;  /*使元素不会显示,值改为none会显示*/
+  text-align: center;
+  color: #ff6700;
+  /*font-size: 12px;*/
+}
+#top_menu2_middle_search {
+  float: right;
+  width: 25%;
+  /*height: 50px;*/
+  margin-top: 25px;
+  /*background: red;*/
+  /*border: 1px solid #e0e0e0;*/
+  /*transition: 0.3s;*/
+}
+#top_menu2_middle_search_from {
+  /*display: table;*/
+  display: block;
+  /*margin: 0px;*/
+  /*border-collapse: collapse;*/
+  /*background: yellow;*/
+}
+#top_menu2_middle_search_from input {
+  /*height: 50px;*/
+  /*border-color: #e0e0e0;*/
+  float: right;
+  /*transition: 0.3s;*/
+}
+input::-webkit-search-cancel-button{  /*清除谷歌浏览器下的 search 叉号*/
+  display: none;
+}
+input[type=search]::-ms-clear{  /*--清除IE下的 search 叉号*/
+  display: none;
+}
+#input1 {
+  outline: none;  /*去除搜索框聚焦时的边框阴影*/
+  border-color: #e0e0e0;
+  border-right: 0px;
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  /*font-size: 20px;*/
+  padding-left: 10px;
+  /*height: 50px;*/
+  width: 80.1%;
+  /*width: 76.6%;*/
+}
+@font-face {
+  font-family: 'foundation-icons';
+  src: url('../typeface/foundation-icons/foundation-icons.eot');
+  src: url('../typeface/foundation-icons/foundation-icons.eot?#iefix') format('embedded-opentype'), url('../typeface/foundation-icons/foundation-icons.woff') format('woff'),url('../typeface/foundation-icons/foundation-icons.ttf') format('truetype'),url('../typeface/foundation-icons/foundation-icons.svg#foundation-icons') format('svg');
+}
+#foundicon1,#foundicon2,#foundicon3 {
+  display: none;  /*使元素不会显示,值改为会显示*/
+  font-family: "foundation-icons";
+  /*font-size: 0px;*/
+}
+#input2 {
+  font-family: "foundation-icons";
+  /*font-size: 40px;*/
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  background: #fff;
+  color: #616161;
+  border: 1px solid #e0e0e0;
+  /*height: 50px;*/
+  width: 19.9%;
+  /*width: 16.2%;*/
+}
+#input1:hover {
+  /*border-color: #b0b0b0;*/
+}
+#input2:hover {
+  cursor: pointer;  /*鼠标样式*/
+  background: #FF6700;
+  border-color: #FF6700;
+  color: #fff;
+}
+#input1_showtext {
+  position: relative;
+  z-index: 1;
+  left: 29%;
+  /*top: -35px;*/
+  /*width: 175px;*/
+  display: inline;  /*使元素不会显示,值改为none不会显示*/
+  /*height: 5px;*/
+  /*width: 100px;*/
+  /*background: yellow;*/
+  transition: 0.3s;
+}
+#input1_showtext a{
+  /*display: inline;*/
+  font-family: "Microsoft Yahei";
+  text-decoration: none;  /*去下划线*/
+  /*font-size: 13px;*/
+  color: #757575;
+  background: #EEEEEE;
+  /*transition: 0.3s;*/
+}
+#input1_showtext a:hover {
+  background: #FF6700;
+  color: #fff;
+}
+#top_menu2_middle_search_hide {
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+  display: block;  /*使元素不会显示,值改为none会显示*/
+  /*float: left;*/
+  position: relative;
+  z-index: 1;
+  /*margin-top: 3.7%;*/
+  /*border: 1px solid #FF6700;
+  border-top: 0px;*/
+  /*height: 0px;*/
+  width: 80%;
+  transition: 0.5s;
+  /*background: yellow;*/
+}
+#top_menu2_middle_search_hide ul {
+  list-style-type: none;  /*不显示每行前面的点*/
+}
+#top_menu2_middle_search_hide a {
+  font-family: "Microsoft Yahei";
+  text-decoration: none;  /*去下划线*/
+  display: block;
+  background: #fff;
+  width: 100%;
+  /*height: 30px;*/
+  transition: 0.4s;
+}
+#top_menu2_middle_search_hide a:hover {
+  background: #E3E3E3;
+}
+.search_spcs1 {
+  float: left;
+  margin-left: 6%;
+  color: #757575;
+}
+.search_spcs2 {
+  float: right;
+  margin-right: 6%;
+  color: #A6A6A6;
+}
+/*=========================中间第一大部分内容模块总样式============================*/
+#content1 {
+  background: rgba(255,255,255, 0);
+}
+/*中间第一大部分所有内容样式*/
+#content1 #content1_middle {
+  background: rgba(255,255,0, 0);
+  margin: auto;
+}
+/*中间第一大部分内容中图片信息菜单样式*/
+#content1 #content1_middle #content1_middle_imginfo {
+  width: 100%;
+  background: rgba(0,0,255, 0);
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+}
+#imginfo_img {
+  /*margin-left: -1260px;*/
+  /*width: 6598px;*/
+  height: 100%;
+  /*background: #ccc;*/
+  /*margin-left: -1260px;*/
+  float: left;
+  /*position: absolute;
+  z-index: -1;*/
+  /*transition: 3s;*/
+}
+#imginfo_img:hover {
+  cursor: pointer;  /*鼠标样式*/
+}
+#imginfo_img0,#imginfo_img1,#imginfo_img2,#imginfo_img3,#imginfo_img4,#imginfo_img5 {
+  float: left;
+  opacity: 1;/*  整个div透明度*/
+  /*position: absolute;
+  z-index: -1;*/
+  /*transition: 1s;*/
+}
+#imginfo_img1 {
+  background: url("../image/content1_middle_img/play1.jpg");
+  background-size: 100% 100%;
+  /*filter: alpha(opacity=70);*/
+  /*background: #f00;*/
+}
+#imginfo_img2 {
+  /*margin-left: 1260px;*/
+  /*background: #0f0;*/
+  background: url("../image/content1_middle_img/play2.jpg");
+  background-size: 100% 100%;
+}
+#imginfo_img3 {
+  /*margin-left: 2520px;*/
+  /*background: #00f;*/
+  background: url("../image/content1_middle_img/play3.jpg");
+  background-size: 100% 100%;
+}
+#imginfo_img4 {
+  /*margin-left: 3780px;*/
+  /*background: #ff0;*/
+  background: url("../image/content1_middle_img/play4.jpg");
+  background-size: 100% 100%;
+}
+#imginfo_img5 {
+  /*margin-left: 5040px;*/
+  /*background: #0ff;*/
+  background: url("../image/content1_middle_img/play5.jpg");
+  background-size: 100% 100%;
+}
+#content1_middle_imginfo_menu {
+  position: relative;
+  z-index: 0;
+  float: left;
+  /*margin-top: -400px;*/
+  /*width: 300px;*/
+  height: 100%;
+  /*background: rgba(0,0,0,0.5);*/
+}
+#content1_middle_imginfo_menu_nohide {
+  float: left;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+#content1_middle_imginfo_menu_nohide ul {
+  list-style-type: none;  /*不显示每行前面的点*/
+  /*margin-top: 20px;*/
+  margin-top: 8.5%;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+  /*background: red;*/
+}
+#content1_middle_imginfo_menu_nohide li {
+  /*width: 100%;*/
+  /*height: 47px;*/
+  /*line-height: 47px;*/
+  /*font-size: 14px;*/
+  /*background: yellow;*/
+}
+#content1_middle_imginfo_menu_nohide li:hover {
+  cursor: pointer;  /*鼠标样式*/
+  background: rgba(255,103,0,1);
+}
+#content1_middle_imginfo_menu_nohide span {
+  margin-left: 10%;
+}
+#content1_middle_imginfo_menu_nohide i {
+  float: right;
+  margin-right: 10%;
+  font-family: "foundation-icons";
+  font-style: normal;  /*去除斜体样式*/
+  /*font-size: 20px;*/
+  color: rgba(255,255,255,0.8);
+  /*text-decoration: inherit;*/
+}
+#content1_middle_imginfo_menu_hide {
+  overflow: hidden;
+  /*display: none;*/
+  float: left;
+  /*margin-left: -20px;*/
+  height: 99.56%;
+  /*transition: 0.3s;*/
+  /*background: rgba(255,255,255,1);*/
+  /*border-top: 1px solid #E0E0E0;
+  border-bottom: 5px solid #E0E0E0;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);*/
+}
+#content1_middle_imginfo_menu_hide div {
+  float: left;  /*一定要加这个,不加的话IE浏览器中的隐藏菜单栏不能正常显示*/
+  margin-left: -7000px;
+  /*display: none;*/
+  transition: 0.3s;
+}
+#content1_middle_imginfo_menu_hide ul {
+  float: left;
+  list-style-type: none;  /*不显示每行前面的点*/
+  font-family: "Microsoft Yahei";
+  /*width: 270px;*/
+}
+#content1_middle_imginfo_menu_hide li {
+  background: rgba(0,0,0,0.5);
+  /*height: 84.8px;
+  font-size: 15px;*/
+  /*line-height: 85.33px;*/
+  /*background: rgba(0,255,0,0.5);*/
+  transition: 0.5s;
+}
+#content1_middle_imginfo_menu_hide li:hover {
+  /*background: rgba(255,255,255,0.5);*/
+  /*opacity: 0.5;*/
+}
+#content1_middle_imginfo_menu_hide a {
+  text-decoration: none;  /*去下划线*/
+  display: block;
+  float: left;
+  /*background: blue;*/
+  /*width: 200px;*/
+}
+/*#content1_middle_imginfo_menu_hide li:hover {
+  background: rgba(255,255,0,0.5);
+}*/
+#content1_middle_imginfo_menu_hide img {
+  float: left;
+  /*width: 50px;
+  margin: 15px 10px 0px 20px;*/
+}
+#content1_middle_imginfo_menu_hide span {
+  /*background: yellow;*/
+  /*color: #333333;*/
+  color: #fff;
+  /*line-height: 80px;*/
+}
+#content1_middle_imginfo_menu_hide h4 {
+  float: right;
+  color: #F25807;
+  /*margin-top: 29px;
+  margin-right: 8px;
+  font-size: 13px;
+  padding: 2px 15px;
+  border: 1px solid #F25807;*/
+  transition: 0.3s;
+}
+#content1_middle_imginfo_menu_hide h4:hover {
+  cursor: pointer;  /*鼠标样式*/
+  background: #F25807;
+  color: #fff;
+}
+#imginfo_img_left,#imginfo_img_right {
+  /*background: rgba(255,0,0,0.5);*/
+  position: relative;
+  z-index: 0;
+  /*transition: 0.4s;*/
+}
+#imginfo_img_left {
+  float: left;
+  background: url("../image/content1_middle_img/icon-slides-left1.png");
+  background-size: 100% 100%;
+}
+#imginfo_img_right {
+  float: right;
+  background: url("../image/content1_middle_img/icon-slides-right1.png");
+  background-size: 100% 100%;
+}
+#imginfo_img_left:hover,#imginfo_img_right:hover {
+  cursor: pointer;  /*鼠标样式*/
+  /*background: yellow;*/
+}
+#imginfo_img_left:hover {
+  background: url("../image/content1_middle_img/icon-slides-left2.png");
+  background-size: 100% 100%;
+}
+#imginfo_img_right:hover {
+  background: url("../image/content1_middle_img/icon-slides-right2.png");
+  background-size: 100% 100%;
+}
+#imginfo_img_xuan {
+  position: relative;
+  z-index: 0;
+  float: right;
+  /*margin-top: -45px;*/
+  /*height: 20px;
+  width: 150px;*/
+  /*background: yellow;*/
+}
+#imginfo_img_xuan1,#imginfo_img_xuan2,#imginfo_img_xuan3,#imginfo_img_xuan4,#imginfo_img_xuan5 {
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Microsoft Yahei";  /*字体样式*/
+  /*background: rgb(137,138,140);*/
+  color: #E3E3E3;
+  /*transition: 1s;*/
+}
+/*中间第一大部分内容中附加信息样式*/
+#content1 #content1_middle #content1_middle_addinfo {
+  /*width: 100%;*/
+  /*height: 200px;*/
+  /*margin-top: 15px;*/
+  background: rgba(200,111,206, 0.2);
+}
+.content1_middle_addinfo_left {
+  border-collapse: collapse;  /*去掉table中td间的间隙*/
+}
+.content1_middle_addinfo_left td {
+  /*width: 86px;
+  height: 94px;*/
+  /*border: 1px solid red;*/
+  background: #5F5750;
+}
+.content1_middle_addinfo_left img {
+  display: block;
+  height: 100%;
+  margin: auto;
+  transition: 0.3s;
+}
+.content1_middle_addinfo_left img:hover {
+  cursor: pointer;  /*鼠标样式*/
+  transform: scale(1.2);
+}
+#content1_middle_addinfo_right {
+  border-collapse: collapse;  /*去掉table中td间的间隙*/
+  float: right;
+  /*margin-top: -188px;*/
+}
+#content1_middle_addinfo_right td {
+  background: #fff;
+  /*border: 1px solid;*/
+  /*width: 333.5px;
+  height: 188px;*/
+}
+/*.content1_middle_addinfo_right td:hover {
+  background: red;
+}*/
+#content1_middle_addinfo_right img {
+  height: 100%;
+  float: right;
+  transition: 0.5s;
+}
+#content1_middle_addinfo_right img:hover {
+  cursor: pointer;  /*鼠标样式*/
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+#content1 #content1_middle #content1_middle_sell {
+  width: 100%;
+  /*height: 438px;
+  margin-top: 28px;*/
+  /*background: rgba(200,111,25, 0.5);*/
+}
+#content1_middle_sell_top {
+  /*line-height: 59.6px;*/
+  height: 13.242%;
+  background: #fff;
+}
+#content1_middle_sell_top h2 {
+  /*font-size: 24px;*/
+  float: left;
+  /*background: red;*/
+  font-family: "Microsoft Yahei";
+  font-weight: normal;
+}
+#content1_middle_sell_top_right {
+  float: right;
+  height: 50%;
+  width: 8%;
+  margin-top: 1.8%;
+  /*background: red;*/
+}
+#content1_middle_sell_top_right span {
+  position: relative;
+  font-family: "foundation-icons";
+  text-decoration: none;  /*去下划线*/
+  display: block;
+  float: right;
+  width: 40%;
+  text-align: center;
+  color: #E0E0E0;
+  background: #fff;
+  /*border: 2px solid #E0E0E0;
+  font-size: 20px;*/
+  /*background: blue;*/
+  transition: 0.3s;
+}
+#content1_middle_sell_top_right #c1mstopr_a2 {
+  color: #B0B0B0;
+}
+/*#content1_middle_sell_top_right span:hover {
+   color: #B0B0B0;
+   cursor: pointer;  鼠标样式
+   color: #FF6600;
+   background: #E0E0E0;
+   transform: scale(1.2);
+}*/
+#content1_middle_sell_bottom {
+  overflow: hidden; /*内容会被修剪，并且其余内容是不可见的。即内容不会出现在父元素外*/
+  height: 86.758%;
+  width: 100%;
+  /*background: yellow;*/
+}
+#content1_middle_sell_bottoming {
+  height: 100%;
+  width: 200%;
+  font-family: "Microsoft Yahei";
+  /*margin-left: 0%;*/
+  transition: 1s;
+}
+/*#content1_middle_sell_bottoming:hover {
+  margin-left: -100%;
+}*/
+#content1_middle_sell_bottoming ul {
+  float: left;
+  list-style-type: none;  /*不显示每行前面的点*/
+  height: 90%;
+  width: 50%;
+  background: #fff;
+}
+#content1_middle_sell_bottoming li {
+  float: left;
+  width: 19.2%;
+  height: 100%;
+  margin-right: 1%;
+  border-top: 1.8px solid #ff0;
+  background: #FAFAFA;
+}
+#content1_middle_sell_bottoming #c1msbing_li5,#content1_middle_sell_bottoming #c1msbing_li10 {
+  margin-right: 0;
+}
+#content1_middle_sell_bottoming #c1msbing_li1,#content1_middle_sell_bottoming #c1msbing_li8 {
+  border-color: #00f;
+}
+#content1_middle_sell_bottoming #c1msbing_li2,#content1_middle_sell_bottoming #c1msbing_li6 {
+  border-color: #0f0;
+}
+#content1_middle_sell_bottoming #c1msbing_li3,#content1_middle_sell_bottoming #c1msbing_li10 {
+  border-color: #f00;
+}
+#content1_middle_sell_bottoming #c1msbing_li4,#content1_middle_sell_bottoming #c1msbing_li7 {
+  border-color: #0ff;
+}
+#content1_middle_sell_bottoming #c1msbing_li5,#content1_middle_sell_bottoming #c1msbing_li9 {
+  border-color: #f0f;
+}
+#content1_middle_sell_bottoming a {
+  text-decoration: none;  /*去下划线*/
+}
+#content1_middle_sell_bottoming img {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+#content1_middle_sell_bottoming h4 {
+  text-align: center;
+  color: #212121;
+  font-weight: 400;
+  /*font-size: 14px;*/
+}
+#content1_middle_sell_bottoming p {
+  text-align: center;
+  color: #b0b0b0;
+  padding: 2%;
+  /*font-size: 12px;*/
+}
+#content1_middle_sell_bottoming span {
+  display: block;
+  text-align: center;
+  color: #ff6709;
+  padding: 3%;
+  /*font-size: 13px;*/
+}
+/*中间第二大部分内容模块总样式*/
+#content2 {
+  font-family: "Microsoft Yahei";
+  width: 100%;
+  background: rgba(245,245,245, 1);
+}
+/*中间第二大部分所有内容样式*/
+#content2 #content2_middle {
+  /*padding-top: 60px;
+  padding-bottom: 60px;*/
+  background: rgba(245,245,245, 1);
+  margin: auto;
+}
+#content2 #content2_middle #content2_middle_hardware {
+  width: 100%;
+  overflow: hidden;
+  /*height: 705px;*/
+  /*background: rgba(233,83,98, 0.2);*/
+}
+#content2_middle_hardware_top {
+  width: 100%;
+  height: 8.5%;
+  background: rgba(245,245,245, 1);
+}
+#content2_middle_hardware_top h2 {
+  float: left;
+  margin-top: 1.2%;
+  background: rgba(245,245,245, 1);
+  color: #333;
+  font-weight: 400;
+}
+#content2_middle_hardware_top #cmht2 {
+  font-weight: 400;
+}
+#content2_middle_hardware_top #center {
+  float: right;
+  color: #424242;
+  height: 100%;
+  transition: 0.3s;
+}
+#content2_middle_hardware_top #center:hover {
+  cursor: pointer;  /*鼠标样式*/
+  color: #ff6700;
+}
+#content2_middle_hardware_top h4 {
+  float: right;
+  font-family: "foundation-icons";
+  margin-top: 25%;
+}
+#content2_middle_hardware_top h5 {
+  float: right;
+  margin-top: 26%;
+}
+.content2_middle_hardware_content {
+  width: 100%;
+  height: 91.5%;
+}
+.content2_middle_hardware_content div {
+  float: left;
+  width: 19.2%;
+  height: 49.02%;
+  margin: 0.5%;
+  background: #fff;
+  transition: 0.3s;
+}
+.content2_middle_hardware_content center {
+  color: #fff;
+  background: #FFAC13;
+  line-height: 160%;
+  width: 28%;
+  /*font-size: 13px;*/
+  margin: auto;
+}
+.content2_middle_hardware_content .gift {
+  background: #2196F3;
+}
+.content2_middle_hardware_content .new {
+  background: #83C44E;
+}
+.content2_middle_hardware_content .empty {
+  background: #fff;
+}
+.content2_middle_hardware_content img {
+  margin-left: 15%;
+  width: 70%;
+}
+.content2_middle_hardware_content img:hover {
+  cursor: pointer;
+}
+.content2_middle_hardware_content a {
+  text-decoration: none;  /*去下划线*/
+  display: block;
+  text-align: center;
+  color: #000;
+  margin-top: 6%;
+  /*font-size: 15px;*/
+}
+.content2_middle_hardware_content p {
+  text-align: center;
+  color: #B0B0B0;
+  margin-top: 3%;
+  /*font-size: 13px;*/
+}
+.content2_middle_hardware_content .money {
+  color: #FF6700;
+}
+.content2_middle_hardware_content .cmhacd1 {
+  overflow: hidden;
+  height: 100%;
+  margin-left: 0;
+}
+.content2_middle_hardware_content .cmhacd1 img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.content2_middle_hardware_content .cmhacd1,.content2_middle_hardware_content .cmhacd2,.content2_middle_hardware_content .cmhacd3,.content2_middle_hardware_content .cmhacd4,.content2_middle_hardware_content .cmhacd5 {
+  overflow: hidden;
+  margin-top: 0;
+}
+.content2_middle_hardware_content .cmhacd6,.content2_middle_hardware_content .cmhacd7,.content2_middle_hardware_content .cmhacd8,.content2_middle_hardware_content .cmhacd9 {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.content2_middle_hardware_content .cmhacd5,.content2_middle_hardware_content .cmhacd9 {
+  overflow: hidden;
+  margin-right: 0;
+}
+.content2_middle_hardware_content .cmhacd1:hover,.content2_middle_hardware_content .cmhacd2:hover,.content2_middle_hardware_content .cmhacd3:hover,.content2_middle_hardware_content .cmhacd4:hover,.content2_middle_hardware_content .cmhacd6:hover,.content2_middle_hardware_content .cmhacd7:hover,.content2_middle_hardware_content .cmhacd8:hover,.content2_middle_hardware_content .cmhacd9:hover,.content2_middle_collocation .cmhacd10:hover,.content2_middle_collocation .cmhacd11:hover {
+  margin-top: -0.2%;
+  box-shadow: -2px 5px 15px rgba(0,0,0,0.1), 2px 5px 15px rgba(0,0,0,0.1), 0 -10px 10px rgba(0,0,0,0), 0 15px 20px rgba(0,0,0,0.1);/*左边阴影*//*右边阴影*//*顶部阴影*//*底边阴影*/
+}
+.content2_middle_hardware_content .cmhacd5:hover {
+  margin-top: -0%;
+  box-shadow: -2px 5px 15px rgba(0,0,0,0.1), 2px 5px 15px rgba(0,0,0,0.1), 0 -10px 10px rgba(0,0,0,0), 0 15px 20px rgba(0,0,0,0.1);/*左边阴影*//*右边阴影*//*顶部阴影*//*底边阴影*/
+}
+/*中间第二大部分内容中搭配信息*/
+.content2_middle_collocation_top {
+  width: 100%;
+  height: 8.5%;
+  /*background: red;*/
+}
+.content2_middle_collocation .cmhacd1 {
+  overflow: hidden;
+  height: 49.02%;
+}
+.content2_middle_collocation .cmhacd6 {
+  overflow: hidden;
+  margin-left: 0;
+}
+.content2_middle_collocation .cmhacd9 {
+  overflow: hidden;
+  margin-right: 0.5%;
+}
+.content2_middle_collocation .cmhacd10,.content2_middle_collocation .cmhacd11 {
+  overflow: hidden;
+  height: 23.6%;
+  margin-right: 0;
+}
+.content2_middle_collocation .cmhacd10:hover,.content2_middle_collocation .cmhacd11:hover {
+  margin-bottom: 1.2%;
+}
+#content2_middle_collocation_content2,#content2_middle_collocation_content3,#content2_middle_collocation_content4 {
+  display: none;
+}
+.content2_middle_hardware_content #cmhacd6_1 img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.content2_middle_collocation_top p {  /*中间第二大部分内容中搭配信息*/
+  float: left;
+  height: 100%;
+  /*background: yellow;*/
+}
+.content2_middle_collocation_top span {
+  display: block;
+  margin-top: 40%;
+  color: #333;
+  /*font-size: 22px;*/
+}
+.content2_middle_collocation_top ul {
+  /*height: 100%;*/
+  padding-top: 1.5%;
+  /*background: red;*/
+}
+.content2_middle_collocation_top li {
+  list-style-type: none;
+  float: right;
+  margin-left: 2%;
+  padding: 4px;
+  transition: 0.2s;
+  /*font-size: 16px;*/
+}
+.content2_middle_collocation_top .cmctli1 {
+  color: #FF6700;
+  border-bottom: 2.5px solid #FF6700;
+}
+.content2_middle_collocation_top li:hover {
+  color: #FF6700;
+  border-bottom: 2.5px solid #FF6700;
+}
+.content2_middle_collocation_top a {
+  text-decoration: none;
+  color: #424242;
+}
+.content2_middle_hardware_content .adivhide {
+  height: 100%;
+  width: 100%;
+}
+.content2_middle_hardware_content .divhide {
+  position: relative;
+  left: -0.5%;
+  /*margin-top: -22%;*/
+  margin-top: 10%;
+  opacity: 0;
+  width: 100%;
+  height:26%;
+  background: #FF6700;
+}
+.content2_middle_hardware_content .threedivhidep1,.content2_middle_hardware_content .threedivhidep2 {
+  color: #fff;
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  padding: 2%;
+  /*font-size: 13px;*/
+}
+.content2_middle_hardware_content .threedivhidep2 {
+  color: #FFC299;
+  /*font-size: 13px;*/
+}
+.cmhacd10 .threecmhcm10,.cmhacd11 .threecmhcm11 {
+  width: 35%;
+  float: right;
+  margin: 5%;
+}
+.cmhacd10 .divhide,.cmhacd11 .divhide {
+  width: 0px
+}
+#content2 #content2_middle .content2_middle_collocation,#content2 #content2_middle #content2_middle_parts,#content2 #content2_middle #content2_middle_periphery {
+  width: 100%;
+  overflow: hidden;
+  /*height: 705px;*/
+  /*margin-top: 10px;*/
+  background: rgba(200,200,200, 0.5);
+}
+/*#content2 #content2_middle #content2_middle_parts {
+  background: rgba(178,187,172, 1);
+}
+#content2 #content2_middle #content2_middle_periphery {
+  background: rgba(95,200,230, 0.5);
+}*/
+#content2 #content2_middle #content2_middle_recommend {
+  width: 100%;
+  height: 358px;
+  margin-top: 22px;
+  background: rgba(95,126,0, 0.5);
+}
+#content2 #content2_middle #content2_middle_hot,#content2 #content2_middle #content2_middle_content {
+  width: 100%;
+  height: 473px;
+  margin-top: 22px;
+  background: rgba(132,0,117, 0.5);
+}
+#content2 #content2_middle #content2_middle_content {
+  background: rgba(111,203,74, 0.5);
+}
+#content2 #content2_middle #content2_middle_video {
+  width: 100%;
+  height: 343px;
+  margin-top: 22px;
+  background: rgba(61,111,141, 0.5);
+}
+#bottom1 {
+  height: 272px;
+  background: rgba(61,111,0, 0);
+}
+#bottom1 #bottom1_middle {
+  height: 100%;
+  margin: auto;
+  background: rgba(255,255,0, 0);
+}
+#bottom2 {
+  height: 166px;
+  background: rgba(61,111,246, 0);
+}
+#bottom2 #bottom2_middle {
+  height: 100%;
+  margin: auto;
+  background: rgba(255,49,197, 0);
+}
