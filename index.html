@@ -1,0 +1,3248 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>czyMI</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script type="text/javascript" src="./js/index.js"></script>
+  </head>
+  <body onmousedown="MousedownBODY(event)" onmouseup="MouseupBODY(event)">
+    <!-- <div id="change_skin"> -->  <!-- 换肤功能模块 -->
+      <!-- <div id="button_open" onmouseover="MouseoverBO1(event)" onmouseout="MouseoutBO1(event)" onmousedown="MousedownBO1(event)" onmouseup="MouseupBO1(event)"></div> -->  <!-- 换肤按钮 -->
+      <!-- <div id="button_option"></div> -->  <!-- 选择皮肤模块 -->
+    <!-- </div> -->
+    <div id="return_top" onmouseover="MouseoverRTP(event)" onmouseout="MouseoutRTP(event)" onmousedown="MousedownRTP(event)" onmouseup="MouseupRTP(event)">  <!-- 返回顶部按钮 -->
+    </div>
+    <div id="top_menu">  <!-- 顶部菜单模块 -->
+      <div id="top_menu1">  <!-- 顶部第一个菜单模块 -->
+        <div id="top_menu1_middle">  <!-- 中间所有内容 -->
+          <div id="top_menu1_middle_left">
+            <a id="tmma1" href="#">小米商城</a>
+            <span id="tmmsp1">|</span>
+            <a id="tmma2" href="#">MIUI</a>
+            <span id="tmmsp2">|</span>
+            <a id="tmma3" href="#">米聊</a>
+            <span id="tmmsp3">|</span>
+            <a id="tmma4" href="#">游戏</a>
+            <span id="tmmsp4">|</span>
+            <a id="tmma5" href="#">多看阅读</a>
+            <span id="tmmsp5">|</span>
+            <a id="tmma6" href="#">云服务</a>
+            <span id="tmmsp6">|</span>
+            <a id="tmma7" href="#">金融</a>
+            <span id="tmmsp7">|</span>
+            <a id="tmma8" href="#">小米网移动版</a>
+            <span id="tmmsp8">|</span>
+            <a id="tmma9" href="#">问题反馈</a>
+            <span id="tmmsp9">|</span>
+            <a id="tmma10" href="#">Select Region</a>
+          </div>
+          <div id="top_menu1_middle_right">
+            <div id="top_menu1_middle_right_info">
+              <div id="top_menu1_middle_right_info_users" onmouseover="MouseoverTMRIU(event)" onmouseout="MouseoutTMRIU(event)" onmousedown="MousedownTMRIU(event)" onmouseup="MouseupTMRIU(event)">
+                <span id="top_menu1_middle_right_info_user"><a id="tmma11" href="#">志银▼</a></span>
+                <div id="top_menu1_middle_right_info_usering">
+                  <div id="top_menu1_middle_right_info_useringcontent">
+                    <ul id="ul_text">
+                      <li id="li_text1">个人中心</li>
+                      <li id="li_text2">评价晒单</li>
+                      <li id="li_text3">我的喜欢</li>
+                      <li id="li_text4">小米账户</li>
+                      <li id="li_text5">退出登录</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <span id="tmmsp10">|</span>
+              <a id="tmma12" href="#">消息通知</a>
+              <span id="tmmsp11">|</span>
+              <a id="tmma13" href="#">我的订单</a>
+            </div>
+            <div id="top_menu1_middle_right_shopping" onmouseover="MouseoverTMMRS(event)" onmouseout="MouseoutTMMRS(event)" onmousedown="MousedownTMMRS(event)" onmouseup="MouseupTMMRS(event)">
+              <div id="top_menu1_middle_right_shoppingcar"><a id="tmma14" href="#">购物车(0)</a></div>
+              <div id="top_menu1_middle_right_shoppinging">
+                <p id="span_shopping">购物车中还没有商品，赶紧选购吧！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="top_menu2">  <!-- 顶部第二个菜单模块 -->
+        <div id="top_menu2_middle">  <!-- 中间所有内容 -->
+          <div id="top_menu2_middle_leftmi" title="小米官网" onmouseover="MouseoverTMLM(event)" onmouseout="MouseoutTMLM(event)">
+            <div id="top_menu2_middle_leftmitext">MI</div>
+          </div>
+          <div id="top_menu2_middle_imggif"><img id="top_menu2_middle_migif" src="./image/top_menu_img/pro.gif" /></div>
+          <div id="top_menu2_middle_menus">  <!-- 菜单栏选项 -->
+            <ul>
+              <li><a id="tmmmsa1" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">小米手机</a></li>
+              <li><a id="tmmmsa2" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">红米</a></li>
+              <li><a id="tmmmsa3" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">平板 · 笔记本</a></li>
+              <li><a id="tmmmsa4" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">电视</a></li>
+              <li><a id="tmmmsa5" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">盒子 · 影音</a></li>
+              <li><a id="tmmmsa6" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">路由器</a></li>
+              <li><a id="tmmmsa7" href="#" onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)">智能硬件</a></li>
+              <li><a id="tmmmsa8" href="#">服务</a></li><!--  onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)" -->
+              <li><a id="tmmmsa9" href="#">社区</a></li><!--  onmouseover="MouseoverTMSA(event)" onmouseout="MouseoutTMSA(event)" -->
+            </ul>
+          </div>
+          <i id="foundicon1">&#xf16c;</i>  <!-- 放大图标字体 -->
+          <i id="foundicon2">&#xf1e4;</i>  <!-- 放大图标字体 -->
+          <i id="foundicon3">&#xf15a;</i>  <!-- 放大图标字体 -->
+          <div id="top_menu2_middle_search">  <!-- 搜索框 -->
+            <form id="top_menu2_middle_search_from" onmouseover="MouseoverTMSF(event)" onmouseout="MouseoutTMSF(event)">
+            <input id="input2" type="submit" name="submitname" value=""  onmouseover="MouseoverTMSF(event)" onmouseout="MouseoutTMSF(event)"/>
+              <input id="input1" type="search" name="searchname" onmousedown="MousedownIP1S(event)"/> <!--  onmouseup="MouseupIP1S(event)"加进去会有放大镜图标results="s" -->
+              <div id="input1_showtext">
+                <a id="input1_showtext_a1" href="#">小米note</a>
+                <a id="input1_showtext_a2" href="#">小米笔记本Air</a>
+              </div>
+            </form>
+            <div id="top_menu2_middle_search_hide">
+              <ul>
+                <li>
+                  <a id="search_a1" href="#">
+                    <span class="search_spcs1" id="search_sp1">小米手机5</span>
+                    <span class="search_spcs2" id="search_sp2">约有11件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a2" href="#">
+                    <span class="search_spcs1" id="search_sp3">空气净化器</span>
+                    <span class="search_spcs2" id="search_sp4">约有1件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a3" href="#">
+                    <span class="search_spcs1" id="search_sp5">活塞耳机</span>
+                    <span class="search_spcs2" id="search_sp6">约有4件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a4" href="#">
+                    <span class="search_spcs1" id="search_sp7">小米路由器</span>
+                    <span class="search_spcs2" id="search_sp8">约有8件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a5" href="#">
+                    <span class="search_spcs1" id="search_sp9">移动电源</span>
+                    <span class="search_spcs2" id="search_sp10">约有21件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a6" href="#">
+                    <span class="search_spcs1" id="search_sp11">运动相机</span>
+                    <span class="search_spcs2" id="search_sp12">约有3件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a7" href="#">
+                    <span class="search_spcs1" id="search_sp13">小蚁摄像机</span>
+                    <span class="search_spcs2" id="search_sp14">约有2件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a8" href="#">
+                    <span class="search_spcs1" id="search_sp15">小米体重秤</span>
+                    <span class="search_spcs2" id="search_sp16">约有1件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a9" href="#">
+                    <span class="search_spcs1" id="search_sp17">小米插电板</span>
+                    <span class="search_spcs2" id="search_sp18">约有13件</span>
+                  </a>
+                </li>
+                <li>
+                  <a id="search_a10" href="#">
+                    <span class="search_spcs1" id="search_sp19">配件优惠套装</span>
+                    <span class="search_spcs2" id="search_sp20">约有32件</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="top_menu2_hide" onmouseover="MouseoverTM2H(event)" onmouseout="MouseoutTM2H(event)">  <!-- 隐藏的顶部菜单栏 -->
+        <div id="top_menu2_hide_line"></div>
+        <div id="top_menu2_hide_middle" onmouseover="MouseoverTM2H(event)" onmouseout="MouseoutTM2H(event)">
+          <ul id="ultmmmsa1">  <!-- 第一个选项的隐藏模块 -->
+            <li id="tmhm1_1">
+              <div id="ultmmmsa1_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI_note.jpg" /></a>
+                <a id="ultmmmsa1_a2" href="#"><p id="ultmmmsa1_p">小米Note</p></a>
+                <span id="ultmmmsa1_sp">1299元起</span>
+              </div>
+            </li>
+            <li id="tmhm1_2">
+              <table></table>
+              <div id="ultmmmsa2_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI5.jpg" /></a>
+                <a id="ultmmmsa2_a2" href="#"><p id="ultmmmsa2_p">小米手机5</p></a>
+                <span id="ultmmmsa2_sp">1799元起</span>
+              </div>
+            </li>
+            <li id="tmhm1_3">
+              <table></table>
+              <div id="ultmmmsa3_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI_Max.jpg" /></a>
+                <a id="ultmmmsa3_a2" href="#"><p id="ultmmmsa3_p">小米Max</p></a>
+                <span id="ultmmmsa3_sp">1299元起</span>
+              </div>
+            </li>
+            <li id="tmhm1_4">
+              <table></table>
+              <div id="ultmmmsa4_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI4.jpg" /></a>
+                <a id="ultmmmsa4_a2" href="#"><p id="ultmmmsa4_p">小米手机4</p></a>
+                <span id="ultmmmsa4_sp">899元起</span>
+              </div>
+            </li>
+            <li id="tmhm1_5">
+              <table></table>
+              <div id="ultmmmsa5_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI3.jpg" /></a>
+                <a id="ultmmmsa5_a2" href="#"><p id="ultmmmsa5_p">小米手机3</p></a>
+                <span id="ultmmmsa5_sp">599元起</span>
+              </div>
+            </li>
+            <li id="tmhm1_6">
+              <table></table>
+              <div id="ultmmmsa6_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/MI2.jpg" /></a>
+                <a id="ultmmmsa6_a2" href="#"><p id="ultmmmsa6_p">小米手机2</p></a>
+                <span id="ultmmmsa6_sp">250元起</span>
+              </div>
+            </li>
+          </ul>
+          <ul id="ultmmmsa2">  <!-- 第2个选项的隐藏模块 -->
+            <li id="tmhm2_1">
+              <div id="ultmmmsa7_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa7_a2" href="#"><p id="ultmmmsa7_p">红米Pro</p></a>
+                <span id="ultmmmsa7_sp">1499元起</span>
+              </div>
+            </li>
+            <li id="tmhm2_2">
+              <table></table>
+              <div id="ultmmmsa8_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hongminote4!320x220.jpg" /></a>
+                <a id="ultmmmsa8_a2" href="#"><p id="ultmmmsa8_p">红米Note 4</p></a>
+                <span id="ultmmmsa8_sp">899元起</span>
+              </div>
+            </li>
+            <li id="tmhm2_3">
+              <table></table>
+              <div id="ultmmmsa9_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/note3!320x220.jpg" /></a>
+                <a id="ultmmmsa9_a2" href="#"><p id="ultmmmsa9_p">红米Note 3</p></a>
+                <span id="ultmmmsa9_sp">899元起</span>
+              </div>
+            </li>
+            <li id="tmhm2_4">
+              <table></table>
+              <div id="ultmmmsa10_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hongmi3s!320x220.jpg" /></a>
+                <a id="ultmmmsa10_a2" href="#"><p id="ultmmmsa10_p">红米手机3S</p></a>
+                <span id="ultmmmsa10_sp">699元起</span>
+              </div>
+            </li>
+            <li id="tmhm2_5">
+              <table></table>
+              <div id="ultmmmsa11_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hongmi3!320x220.jpg" /></a>
+                <a id="ultmmmsa11_a2" href="#"><p id="ultmmmsa11_p">红米手机3</p></a>
+                <span id="ultmmmsa11_sp">699元起</span>
+              </div>
+            </li>
+            <li id="tmhm2_6">
+              <table></table>
+              <div id="ultmmmsa12_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hongmi3x!320x220.jpg" /></a>
+                <a id="ultmmmsa12_a2" href="#"><p id="ultmmmsa12_p">红米手机3X</p></a>
+                <span id="ultmmmsa12_sp">799元起</span>
+              </div>
+            </li>
+          </ul>
+          <ul id="ultmmmsa3">  <!-- 第3个选项的隐藏模块 -->
+            <li id="tmhm3_1">
+              <div id="ultmmmsa13_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mipad2-16!320x220.jpg" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa13_a2" href="#"><p id="ultmmmsa13_p">小米平板2 16GB</p></a>
+                <span id="ultmmmsa13_sp">999元起</span>
+              </div>
+            </li>
+            <li id="tmhm3_2">
+              <table></table>
+              <div id="ultmmmsa14_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mipad2-64!320x220.jpg" /></a>
+                <a id="ultmmmsa14_a2" href="#"><p id="ultmmmsa14_p">小米平板2 64GB</p></a>
+                <span id="ultmmmsa14_sp">1299元</span>
+              </div>
+            </li>
+            <li id="tmhm3_3">
+              <table></table>
+              <div id="ultmmmsa15_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mipad2-64-win!320x220.jpg" /></a>
+                <a id="ultmmmsa15_a2" href="#"><p id="ultmmmsa15_p">小米平板2 64GB Windows版</p></a>
+                <span id="ultmmmsa15_sp">1299元</span>
+              </div>
+            </li>
+            <li id="tmhm3_4">
+              <table></table>
+              <div id="ultmmmsa16_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/bijiben32012.5!320x220.jpg" /></a>
+                <a id="ultmmmsa16_a2" href="#"><p id="ultmmmsa16_p">小米笔记本Air 12.5"</p></a>
+                <span id="ultmmmsa16_sp">3499元</span>
+              </div>
+            </li>
+            <li id="tmhm3_5">
+              <table></table>
+              <div id="ultmmmsa17_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/bijiben320!320x220.jpg" /></a>
+                <a id="ultmmmsa17_a2" href="#"><p id="ultmmmsa17_p">小米笔记本Air 13.3"</p></a>
+                <span id="ultmmmsa17_sp">4999元</span>
+              </div>
+            </li>
+            <!-- <li id="tmhm3_6">
+              <table></table>
+              <div id="ultmmmsa18_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hongmi3x!320x220.jpg" /></a>
+                <a id="ultmmmsa18_a2" href="#"><p id="ultmmmsa18_p">红米手机3X</p></a>
+                <span id="ultmmmsa18_sp">799元起</span>
+              </div>
+            </li> -->
+          </ul>
+          <ul id="ultmmmsa4">  <!-- 第4个选项的隐藏模块 -->
+            <li id="tmhm4_1">
+              <div id="ultmmmsa19_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv3s-43!320x220.jpg" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa19_a2" href="#"><p id="ultmmmsa19_p">小米电视3S 43英寸</p></a>
+                <span id="ultmmmsa19_sp">1799元</span>
+              </div>
+            </li>
+            <li id="tmhm4_2">
+              <table></table>
+              <div id="ultmmmsa20_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv3s48!320x220.jpg" /></a>
+                <a id="ultmmmsa20_a2" href="#"><p id="ultmmmsa20_p">小米电视3S 48英寸</p></a>
+                <span id="ultmmmsa20_sp">1999元</span>
+              </div>
+            </li>
+            <li id="tmhm4_3">
+              <table></table>
+              <div id="ultmmmsa21_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv355!320x220.jpg" /></a>
+                <a id="ultmmmsa21_a2" href="#"><p id="ultmmmsa21_p">小米电视3 55英</p></a>
+                <span id="ultmmmsa21_sp">3999元起</span>
+              </div>
+            </li>
+            <li id="tmhm4_4">
+              <table></table>
+              <div id="ultmmmsa22_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv3-60!320x220.jpg" /></a>
+                <a id="ultmmmsa22_a2" href="#"><p id="ultmmmsa22_p">小米电视3 60英寸</p></a>
+                <span id="ultmmmsa22_sp">4999元起</span>
+              </div>
+            </li>
+            <li id="tmhm4_5">
+              <table></table>
+              <div id="ultmmmsa23_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv3s-65!320x220.jpg" /></a>
+                <a id="ultmmmsa23_a2" href="#"><p id="ultmmmsa23_p">小米电视3S 65英寸 曲面</p></a>
+                <span id="ultmmmsa23_sp">8999元</span>
+              </div>
+            </li>
+            <li id="tmhm4_6">
+              <table></table>
+              <div id="ultmmmsa24_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/mitv70!320x220.jpg" /></a>
+                <a id="ultmmmsa24_a2" href="#"><p id="ultmmmsa24_p">小米电视3 70英寸</p></a>
+                <span id="ultmmmsa24_sp">9999元</span>
+              </div>
+            </li>
+          </ul>
+          <ul id="ultmmmsa5">  <!-- 第5个选项的隐藏模块 -->
+            <li id="tmhm5_1">
+              <div id="ultmmmsa25_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hezimini.png" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa25_a2" href="#"><p id="ultmmmsa25_p">小米盒子mini版</p></a>
+                <span id="ultmmmsa25_sp">199元</span>
+              </div>
+            </li>
+            <li id="tmhm5_2">
+              <table></table>
+              <div id="ultmmmsa26_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hezi3.png" /></a>
+                <a id="ultmmmsa26_a2" href="#"><p id="ultmmmsa26_p">小米盒子3</p></a>
+                <span id="ultmmmsa26_sp">249元</span>
+              </div>
+            </li>
+            <li id="tmhm5_3">
+              <table></table>
+              <div id="ultmmmsa27_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/hezi3s!320x220.jpg" /></a>
+                <a id="ultmmmsa27_a2" href="#"><p id="ultmmmsa27_p">小米盒子3 增强版</p></a>
+                <span id="ultmmmsa27_sp">399元</span>
+              </div>
+            </li>
+            <li id="tmhm5_4">
+              <table></table>
+              <div id="ultmmmsa28_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/zhuji!320x220.png" /></a>
+                <a id="ultmmmsa28_a2" href="#"><p id="ultmmmsa28_p">小米电视主机</p></a>
+                <span id="ultmmmsa28_sp">999元</span>
+              </div>
+            </li>
+            <li id="tmhm5_5">
+              <table></table>
+              <div id="ultmmmsa29_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/jinshuban!320x220.jpg" /></a>
+                <a id="ultmmmsa29_a2" href="#"><p id="ultmmmsa29_p">小米家庭音响 金属版</p></a>
+                <span id="ultmmmsa29_sp">899元</span>
+              </div>
+            </li>
+            <li id="tmhm5_6">
+              <table></table>
+              <div id="ultmmmsa30_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/putonban!320x220.jpg" /></a>
+                <a id="ultmmmsa30_a2" href="#"><p id="ultmmmsa30_p">小米家庭音响 标准版</p></a>
+                <span id="ultmmmsa30_sp">699元</span>
+              </div>
+            </li>
+          </ul>
+          <ul id="ultmmmsa6">  <!-- 第6个选项的隐藏模块 -->
+            <li id="tmhm6_1">
+              <div id="ultmmmsa31_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/miwifi!320x220.jpg" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa31_a2" href="#"><p id="ultmmmsa31_p">全新小米路由器</p></a>
+                <span id="ultmmmsa31_sp">699元</span>
+              </div>
+            </li>
+            <li id="tmhm6_2">
+              <table></table>
+              <div id="ultmmmsa32_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/miwifi-3!320x220.png" /></a>
+                <a id="ultmmmsa32_a2" href="#"><p id="ultmmmsa32_p">小米路由器 3 1200M</p></a>
+                <span id="ultmmmsa32_sp">149元</span>
+              </div>
+            </li>
+            <li id="tmhm6_3">
+              <table></table>
+              <div id="ultmmmsa33_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/miwifimini!320x220.jpg" /></a>
+                <a id="ultmmmsa33_a2" href="#"><p id="ultmmmsa33_p">小米路由器 mini</p></a>
+                <span id="ultmmmsa33_sp">129元</span>
+              </div>
+            </li>
+            <li id="tmhm6_4">
+              <table></table>
+              <div id="ultmmmsa34_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/luyouqi3c!320x220.jpg" /></a>
+                <a id="ultmmmsa34_a2" href="#"><p id="ultmmmsa34_p">小米路由器 3C 300M</p></a>
+                <span id="ultmmmsa34_sp">99元</span>
+              </div>
+            </li>
+            <li id="tmhm6_5">
+              <table></table>
+              <div id="ultmmmsa35_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/miwifilite!320x220.jpg" /></a>
+                <a id="ultmmmsa35_a2" href="#"><p id="ultmmmsa35_p">小米路由器 青春版</p></a>
+                <span id="ultmmmsa35_sp">79元</span>
+              </div>
+            </li>
+            <li id="tmhm6_6">
+              <table></table>
+              <div id="ultmmmsa36_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/wifiExtension!320x220.jpg" /></a>
+                <a id="ultmmmsa36_a2" href="#"><p id="ultmmmsa36_p">小米WiFi放大器</p></a>
+                <span id="ultmmmsa36_sp">39元</span>
+              </div>
+            </li>
+          </ul>
+          <ul id="ultmmmsa7">  <!-- 第7个选项的隐藏模块 -->
+            <li id="tmhm7_1">
+              <div id="ultmmmsa37_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/scooter!320x220.jpg" /></a> <!--  data-src="./image/top_menu2_hide_middle_img/HMI_Por.jpg" srcset="./image/top_menu2_hide_middle_img/HMI_Por.jpg 2x" -->
+                <a id="ultmmmsa37_a2" href="#"><p id="ultmmmsa37_p">九号平衡车</p></a>
+                <span id="ultmmmsa37_sp">1999元</span>
+              </div>
+            </li>
+            <li id="tmhm7_2">
+              <table></table>
+              <div id="ultmmmsa38_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/water2!320x220.jpg" /></a>
+                <a id="ultmmmsa38_a2" href="#"><p id="ultmmmsa38_p">小米净水器</p></a>
+                <span id="ultmmmsa38_sp">1299元起</span>
+              </div>
+            </li>
+            <li id="tmhm7_3">
+              <table></table>
+              <div id="ultmmmsa39_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/dianfanbao!320x220.jpg" /></a>
+                <a id="ultmmmsa39_a2" href="#"><p id="ultmmmsa39_p">米家压力IH电饭煲</p></a>
+                <span id="ultmmmsa39_sp">999元</span>
+              </div>
+            </li>
+            <li id="tmhm7_4">
+              <table></table>
+              <div id="ultmmmsa40_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/air2!320x220.jpg" /></a>
+                <a id="ultmmmsa40_a2" href="#"><p id="ultmmmsa40_p">小米空气净化器 2</p></a>
+                <span id="ultmmmsa40_sp">699元</span>
+              </div>
+            </li>
+            <li id="tmhm7_5">
+              <table></table>
+              <div id="ultmmmsa41_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/xiaobaishexiangji!320x220.jpg" /></a>
+                <a id="ultmmmsa41_a2" href="#"><p id="ultmmmsa41_p">智能摄像机</p></a>
+                <span id="ultmmmsa41_sp">149元起</span>
+              </div>
+            </li>
+            <li id="tmhm7_6">
+              <table></table>
+              <div id="ultmmmsa42_d">
+                <a href="#"><img src="./image/top_menu2_hide_middle_img/zhinengyingjian!320x220.jpg" /></a>
+                <a id="ultmmmsa42_a2" href="#"><p id="ultmmmsa42_p">查看全部</p></a>
+                <span id="ultmmmsa42_sp">智能硬件</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="content1">  <!-- 中间第一大部分内容模块 -->
+      <div id="content1_middle">  <!-- 中间所有内容 -->
+        <div id="content1_middle_imginfo">  <!-- 中间第一大部分内容中图片信息菜单 -->
+          <div id="imginfo_img">
+            <div id="imginfo_img1"></div>
+            <div id="imginfo_img2"></div>
+            <div id="imginfo_img3"></div>
+            <div id="imginfo_img4"></div>
+            <div id="imginfo_img5"></div>
+          </div>
+          <div id="content1_middle_imginfo_menu">  <!-- 中间大图的左边菜单栏 -->
+            <div id="content1_middle_imginfo_menu_nohide">
+              <ul id="content1_middle_imginfo_menu_ul">
+                <li id="c1mim_li1" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span1">手机 电话卡</span>
+                  <i id="c1mim_i1">&#xf198;</i>
+                </li>
+                <li id="c1mim_li2" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span2">笔记本 平板</span>
+                  <i id="c1mim_i2">&#xf198;</i>
+                </li>
+                <li id="c1mim_li3" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span3">电视 盒子</span>
+                  <i id="c1mim_i3">&#xf198;</i>
+                </li>
+                <li id="c1mim_li4" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span4">路由器 智能硬件</span>
+                  <i id="c1mim_i4">&#xf198;</i>
+                </li>
+                <li id="c1mim_li5" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span5">移动电源 电池 插线板</span>
+                  <i id="c1mim_i5">&#xf198;</i>
+                </li>
+                <li id="c1mim_li6" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span6">耳机 音箱</span>
+                  <i id="c1mim_i6">&#xf198;</i>
+                </li>
+                <li id="c1mim_li7" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span7">保护套 贴膜</span>
+                  <i id="c1mim_i7">&#xf198;</i>
+                </li>
+                <li id="c1mim_li8" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span8">线材 支架 储存卡</span>
+                  <i id="c1mim_i8">&#xf198;</i>
+                </li>
+                <li id="c1mim_li9" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span9">箱包 服饰</span>
+                  <i id="c1mim_i9">&#xf198;</i>
+                </li>
+                <li id="c1mim_li10" onmouseover="MouseoverC1MIML(event)" onmouseout="MouseoutC1MIML(event)">
+                  <span id="c1mim_span10">米兔 生活周边</span>
+                  <i id="c1mim_i10">&#xf198;</i>
+                </li>
+              </ul>
+            </div>
+            <div id="content1_middle_imginfo_menu_hide" onmouseover="MouseoverC1MIMH(event)" onmouseout="MouseoutC1MIMH(event)">  <!-- 中间大图的左边菜单栏的隐藏部分 -->
+              <div id="c1mimh_div1">
+                <ul>
+                  <li id="c1mimh_li1">
+                    <a id="c1mimh_a1" href="#">
+                      <img id="c1mimh_img1" src="./image/content1_middle_imginfo_menu_hide/mi5bar80.png" />
+                      <span id="c1mimh_span1">小米手机5</span>
+                    </a>
+                    <h4 id="c1mimh_h41">选购</h4>
+                  </li>
+                  <li id="c1mimh_li2">
+                    <a id="c1mimh_a2" href="#">
+                      <img id="c1mimh_img2" src="./image/content1_middle_imginfo_menu_hide/maxbar80.png" />
+                      <span id="c1mimh_span2">小米Max</span>
+                    </a>
+                    <h4 id="c1mimh_h42">选购</h4>
+                  </li>
+                  <li id="c1mimh_li3">
+                    <a id="c1mimh_a3" href="#">
+                      <img id="c1mimh_img3" src="./image/content1_middle_imginfo_menu_hide/hmnote4-300.png" />
+                      <span id="c1mimh_span3">红米Note 4</span>
+                    </a>
+                    <h4 id="c1mimh_h43">选购</h4>
+                  </li>
+                  <li id="c1mimh_li4">
+                    <a id="c1mimh_a4" href="#">
+                      <img id="c1mimh_img4" src="./image/content1_middle_imginfo_menu_hide/note3.png" />
+                      <span id="c1mimh_span4">红米Note 3</span>
+                    </a>
+                    <h4 id="c1mimh_h44">选购</h4>
+                  </li>
+                  <li id="c1mimh_li5">
+                    <a id="c1mimh_a5" href="#">
+                      <img id="c1mimh_img5" src="./image/content1_middle_imginfo_menu_hide/hm3s80x80.png" />
+                      <span id="c1mimh_span5">红米手机3S</span>
+                    </a>
+                    <h4 id="c1mimh_h45">选购</h4>
+                  </li>
+                  <li id="c1mimh_li6">
+                    <a id="c1mimh_a6" href="#">
+                      <img id="c1mimh_img6" src="./image/content1_middle_imginfo_menu_hide/pro80.png" />
+                      <span id="c1mimh_span6">红米Pro</span>
+                    </a>
+                    <h4 id="c1mimh_h46">选购</h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li7">
+                    <a id="c1mimh_a7" href="#">
+                      <img id="c1mimh_img7" src="./image/content1_middle_imginfo_menu_hide/hongmi3.png" />
+                      <span id="c1mimh_span7">红米手机3</span>
+                    </a>
+                    <h4 id="c1mimh_h47">选购</h4>
+                  </li>
+                  <li id="c1mimh_li8">
+                    <a id="c1mimh_a8" href="#">
+                      <img id="c1mimh_img8" src="./image/content1_middle_imginfo_menu_hide/3X80.png" />
+                      <span id="c1mimh_span8">红米手机3X</span>
+                    </a>
+                    <h4 id="c1mimh_h48">选购</h4>
+                  </li>
+                  <li id="c1mimh_li9">
+                    <a id="c1mimh_a9" href="#">
+                      <img id="c1mimh_img9" src="./image/content1_middle_imginfo_menu_hide/heyue.png" />
+                      <span id="c1mimh_span9">合约机</span>
+                    </a>
+                    <h4 id="c1mimh_h49"></h4>
+                  </li>
+                  <li id="c1mimh_li10">
+                    <a id="c1mimh_a10" href="#">
+                      <img id="c1mimh_img10" src="./image/content1_middle_imginfo_menu_hide/compare.png" />
+                      <span id="c1mimh_span10">对比手机</span>
+                    </a>
+                    <h4 id="c1mimh_h410"></h4>
+                  </li>
+                  <li id="c1mimh_li11">
+                    <a id="c1mimh_a11" href="#">
+                      <img id="c1mimh_img11" src="./image/content1_middle_imginfo_menu_hide/mimobile.png" />
+                      <span id="c1mimh_span11">小米移动 电话卡</span>
+                    </a>
+                    <h4 id="c1mimh_h411"></h4>
+                  </li>
+                  <li id="c1mimh_li12">
+                    <a id="c1mimh_a12" href="#">
+                      <img id="c1mimh_img12" src="" />
+                      <span id="c1mimh_span12"></span>
+                    </a>
+                    <h4 id="c1mimh_h412"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div2">
+                <ul>
+                  <li id="c1mimh_li13">
+                    <a id="c1mimh_a13" href="#">
+                      <img id="c1mimh_img13" src="./image/content1_middle_imginfo_menu_hide/bijiben80.png" />
+                      <span id="c1mimh_span13">小米笔记本Air</span>
+                    </a>
+                    <h4 id="c1mimh_h413">选购</h4>
+                  </li>
+                  <li id="c1mimh_li14">
+                    <a id="c1mimh_a14" href="#">
+                      <img id="c1mimh_img14" src="./image/content1_middle_imginfo_menu_hide/pad2.png" />
+                      <span id="c1mimh_span14">小米平板2</span>
+                    </a>
+                    <h4 id="c1mimh_h414">选购</h4>
+                  </li>
+                  <li id="c1mimh_li15">
+                    <a id="c1mimh_a15" href="#">
+                      <img id="c1mimh_img15" src="./image/content1_middle_imginfo_menu_hide/usbzjqggg80.png" />
+                      <span id="c1mimh_span15">USB-C转接器</span>
+                    </a>
+                    <h4 id="c1mimh_h415"></h4>
+                  </li>
+                  <li id="c1mimh_li16">
+                    <a id="c1mimh_a16" href="#">
+                      <img id="c1mimh_img16" src="./image/content1_middle_imginfo_menu_hide/neidanbao80.png" />
+                      <span id="c1mimh_span16">小米笔记本内胆包</span>
+                    </a>
+                    <h4 id="c1mimh_h416"></h4>
+                  </li>
+                  <li id="c1mimh_li17">
+                    <a id="c1mimh_a17" href="#">
+                      <img id="c1mimh_img17" src="" />
+                      <span id="c1mimh_span17"></span>
+                    </a>
+                    <h4 id="c1mimh_h417"></h4>
+                  </li>
+                  <li id="c1mimh_li18">
+                    <a id="c1mimh_a18" href="#">
+                      <img id="c1mimh_img18" src="" />
+                      <span id="c1mimh_span18"></span>
+                    </a>
+                    <h4 id="c1mimh_h418"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div3">
+                <ul>
+                  <li id="c1mimh_li19">
+                    <a id="c1mimh_a19" href="#">
+                      <img id="c1mimh_img19" src="./image/content1_middle_imginfo_menu_hide/4380side.png" />
+                      <span id="c1mimh_span19">小米电视 43英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h419"></h4>
+                  </li>
+                  <li id="c1mimh_li20">
+                    <a id="c1mimh_a20" href="#">
+                      <img id="c1mimh_img20" src="./image/content1_middle_imginfo_menu_hide/mitv3s48.png" />
+                      <span id="c1mimh_span20">小米电视 48英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h420"></h4>
+                  </li>
+                  <li id="c1mimh_li21">
+                    <a id="c1mimh_a21" href="#">
+                      <img id="c1mimh_img21" src="./image/content1_middle_imginfo_menu_hide/tv3-55.png" />
+                      <span id="c1mimh_span21">小米电视 55英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h421"></h4>
+                  </li>
+                  <li id="c1mimh_li22">
+                    <a id="c1mimh_a22" href="#">
+                      <img id="c1mimh_img22" src="./image/content1_middle_imginfo_menu_hide/tv60.png" />
+                      <span id="c1mimh_span22">小米电视 60英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h422"></h4>
+                  </li>
+                  <li id="c1mimh_li23">
+                    <a id="c1mimh_a23" href="#">
+                      <img id="c1mimh_img23"  src="./image/content1_middle_imginfo_menu_hide/6580side.png" />
+                      <span id="c1mimh_span23">小米电视 65英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h423"></h4>
+                  </li>
+                  <li id="c1mimh_li24">
+                    <a id="c1mimh_a24" href="#">
+                      <img id="c1mimh_img24"  src="./image/content1_middle_imginfo_menu_hide/tv70.png" />
+                      <span id="c1mimh_span24">小米电视 70英寸</span>
+                    </a>
+                    <h4 id="c1mimh_h424"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li25">
+                    <a id="c1mimh_a25" href="#">
+                      <img id="c1mimh_img25" src="./image/content1_middle_imginfo_menu_hide/tvzj.png" />
+                      <span id="c1mimh_span25">小米电视主机</span>
+                    </a>
+                    <h4 id="c1mimh_h425"></h4>
+                  </li>
+                  <li id="c1mimh_li26">
+                    <a id="c1mimh_a26" href="#">
+                      <img id="c1mimh_img26" src="./image/content1_middle_imginfo_menu_hide/hezizengqiangban80side.png" />
+                      <span id="c1mimh_span26">小米盒子3 增强版</span>
+                    </a>
+                    <h4 id="c1mimh_h426"></h4>
+                  </li>
+                  <li id="c1mimh_li27">
+                    <a id="c1mimh_a27" href="#">
+                      <img id="c1mimh_img27" src="./image/content1_middle_imginfo_menu_hide/hezis.png" />
+                      <span id="c1mimh_span27">小米盒子3</span>
+                    </a>
+                    <h4 id="c1mimh_h427"></h4>
+                  </li>
+                  <li id="c1mimh_li28">
+                    <a id="c1mimh_a28" href="#">
+                      <img id="c1mimh_img28" src="./image/content1_middle_imginfo_menu_hide/hezimini.png" />
+                      <span id="c1mimh_span28">小米盒子 mini</span>
+                    </a>
+                    <h4 id="c1mimh_h428"></h4>
+                  </li>
+                  <li id="c1mimh_li29">
+                    <a id="c1mimh_a29" href="#">
+                      <img id="c1mimh_img29"  src="./image/content1_middle_imginfo_menu_hide/diyinpao.png" />
+                      <span id="c1mimh_span29">小米低音炮</span>
+                    </a>
+                    <h4 id="c1mimh_h429"></h4>
+                  </li>
+                  <li id="c1mimh_li30">
+                    <a id="c1mimh_a30" href="#">
+                      <img id="c1mimh_img30"  src="./image/content1_middle_imginfo_menu_hide/shb.png" />
+                      <span id="c1mimh_span30">蓝牙手柄</span>
+                    </a>
+                    <h4 id="c1mimh_h430"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li31">
+                    <a id="c1mimh_a31" href="#">
+                      <img id="c1mimh_img31" src="./image/content1_middle_imginfo_menu_hide/zuheyinxiang80side.png" />
+                      <span id="c1mimh_span31">家庭音响</span>
+                    </a>
+                    <h4 id="c1mimh_h431"></h4>
+                  </li>
+                  <li id="c1mimh_li32">
+                    <a id="c1mimh_a32" href="#">
+                      <img id="c1mimh_img32" src="./image/content1_middle_imginfo_menu_hide/dianshipeijian.png" />
+                      <span id="c1mimh_span32">电视盒子配件</span>
+                    </a>
+                    <h4 id="c1mimh_h432"></h4>
+                  </li>
+                  <li id="c1mimh_li33">
+                    <a id="c1mimh_a33" href="#">
+                      <img id="c1mimh_img33" src="" />
+                      <span id="c1mimh_span33"></span>
+                    </a>
+                    <h4 id="c1mimh_h433"></h4>
+                  </li>
+                  <li id="c1mimh_li34">
+                    <a id="c1mimh_a34" href="#">
+                      <img id="c1mimh_img34" src="" />
+                      <span id="c1mimh_span34"></span>
+                    </a>
+                    <h4 id="c1mimh_h434"></h4>
+                  </li>
+                  <li id="c1mimh_li35">
+                    <a id="c1mimh_a35" href="#">
+                      <img id="c1mimh_img35"  src="" />
+                      <span id="c1mimh_span35"></span>
+                    </a>
+                    <h4 id="c1mimh_h435"></h4>
+                  </li>
+                  <li id="c1mimh_li36">
+                    <a id="c1mimh_a36" href="#">
+                      <img id="c1mimh_img36"  src="" />
+                      <span id="c1mimh_span36"></span>
+                    </a>
+                    <h4 id="c1mimh_h436"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div4">
+                <ul>
+                  <li id="c1mimh_li37">
+                    <a id="c1mimh_a37" href="#">
+                      <img id="c1mimh_img37" src="./image/content1_middle_imginfo_menu_hide/jiqiren.jpg" />
+                      <span id="c1mimh_span37">米家扫地机器人及配件</span>
+                    </a>
+                    <h4 id="c1mimh_h437"></h4>
+                  </li>
+                  <li id="c1mimh_li38">
+                    <a id="c1mimh_a38" href="#">
+                      <img id="c1mimh_img38" src="./image/content1_middle_imginfo_menu_hide/vr8080.jpg" />
+                      <span id="c1mimh_span38">小米VR眼睛玩具版</span>
+                    </a>
+                    <h4 id="c1mimh_h438"></h4>
+                  </li>
+                  <li id="c1mimh_li39">
+                    <a id="c1mimh_a39" href="#">
+                      <img id="c1mimh_img39" src="./image/content1_middle_imginfo_menu_hide/luyouqi-80.jpg" />
+                      <span id="c1mimh_span39">小米路由器</span>
+                    </a>
+                    <h4 id="c1mimh_h439"></h4>
+                  </li>
+                  <li id="c1mimh_li40">
+                    <a id="c1mimh_a40" href="#">
+                      <img id="c1mimh_img40" src="./image/content1_middle_imginfo_menu_hide/scooter.jpg" />
+                      <span id="c1mimh_span40">九号平衡车</span>
+                    </a>
+                    <h4 id="c1mimh_h440"></h4>
+                  </li>
+                  <li id="c1mimh_li41">
+                    <a id="c1mimh_a41" href="#">
+                      <img id="c1mimh_img41"  src="./image/content1_middle_imginfo_menu_hide/zxc80-80.jpg" />
+                      <span id="c1mimh_span41">电助力折叠自行车</span>
+                    </a>
+                    <h4 id="c1mimh_h441"></h4>
+                  </li>
+                  <li id="c1mimh_li42">
+                    <a id="c1mimh_a42" href="#">
+                      <img id="c1mimh_img42"  src="./image/content1_middle_imginfo_menu_hide/shuihu80.jpg" />
+                      <span id="c1mimh_span42">米家恒温电水壶</span>
+                    </a>
+                    <h4 id="c1mimh_h442"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li43">
+                    <a id="c1mimh_a43" href="#">
+                      <img id="c1mimh_img43" src="./image/content1_middle_imginfo_menu_hide/dianfanbao-80.jpg" />
+                      <span id="c1mimh_span43">米家压力IH电饭煲</span>
+                    </a>
+                    <h4 id="c1mimh_h443"></h4>
+                  </li>
+                  <li id="c1mimh_li44">
+                    <a id="c1mimh_a44" href="#">
+                      <img id="c1mimh_img44" src="./image/content1_middle_imginfo_menu_hide/xiaobai80.jpg" />
+                      <span id="c1mimh_span44">摄像头</span>
+                    </a>
+                    <h4 id="c1mimh_h444"></h4>
+                  </li>
+                  <li id="c1mimh_li45">
+                    <a id="c1mimh_a45" href="#">
+                      <img id="c1mimh_img45" src="./image/content1_middle_imginfo_menu_hide/jinghuaqilvxin80.jpg" />
+                      <span id="c1mimh_span45">净化器及滤芯</span>
+                    </a>
+                    <h4 id="c1mimh_h445"></h4>
+                  </li>
+                  <li id="c1mimh_li46">
+                    <a id="c1mimh_a46" href="#">
+                      <img id="c1mimh_img46" src="./image/content1_middle_imginfo_menu_hide/jingshuiqiandlvxin-80.jpg" />
+                      <span id="c1mimh_span46">净水器及滤芯</span>
+                    </a>
+                    <h4 id="c1mimh_h446"></h4>
+                  </li>
+                  <li id="c1mimh_li47">
+                    <a id="c1mimh_a47" href="#">
+                      <img id="c1mimh_img47"  src="./image/content1_middle_imginfo_menu_hide/xueyaji-80.jpg" />
+                      <span id="c1mimh_span47">血压计</span>
+                    </a>
+                    <h4 id="c1mimh_h447"></h4>
+                  </li>
+                  <li id="c1mimh_li48">
+                    <a id="c1mimh_a48" href="#">
+                      <img id="c1mimh_img48"  src="./image/content1_middle_imginfo_menu_hide/zhinengdeng-80.jpg" />
+                      <span id="c1mimh_span48">智能灯</span>
+                    </a>
+                    <h4 id="c1mimh_h448"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li49">
+                    <a id="c1mimh_a49" href="#">
+                      <img id="c1mimh_img49" src="./image/content1_middle_imginfo_menu_hide/gushiji80.jpg" />
+                      <span id="c1mimh_span49">米兔智能故事机</span>
+                    </a>
+                    <h4 id="c1mimh_h449"></h4>
+                  </li>
+                  <li id="c1mimh_li50">
+                    <a id="c1mimh_a50" href="#">
+                      <img id="c1mimh_img50" src="./image/content1_middle_imginfo_menu_hide/zhinengjiatingtaozhuang-80.jpg" />
+                      <span id="c1mimh_span50">智能家庭组合</span>
+                    </a>
+                    <h4 id="c1mimh_h450"></h4>
+                  </li>
+                  <li id="c1mimh_li51">
+                    <a id="c1mimh_a51" href="#">
+                      <img id="c1mimh_img51" src="./image/content1_middle_imginfo_menu_hide/shouhuan280.jpg" />
+                      <span id="c1mimh_span51">手环及配件</span>
+                    </a>
+                    <h4 id="c1mimh_h451"></h4>
+                  </li>
+                  <li id="c1mimh_li52">
+                    <a id="c1mimh_a52" href="#">
+                      <img id="c1mimh_img52" src="./image/content1_middle_imginfo_menu_hide/scale.jpg" />
+                      <span id="c1mimh_span52">体重秤</span>
+                    </a>
+                    <h4 id="c1mimh_h452"></h4>
+                  </li>
+                  <li id="c1mimh_li53">
+                    <a id="c1mimh_a53" href="#">
+                      <img id="c1mimh_img53"  src="./image/content1_middle_imginfo_menu_hide/shoubiao3-80.jpg" />
+                      <span id="c1mimh_span53">米兔儿童电话手表</span>
+                    </a>
+                    <h4 id="c1mimh_h453"></h4>
+                  </li>
+                  <li id="c1mimh_li54">
+                    <a id="c1mimh_a54" href="#">
+                      <img id="c1mimh_img54"  src="./image/content1_middle_imginfo_menu_hide/znyjdaohang.jpg" />
+                      <span id="c1mimh_span54">全部智能硬件</span>
+                    </a>
+                    <h4 id="c1mimh_h454"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div5">
+                <ul>
+                  <li id="c1mimh_li55">
+                    <a id="c1mimh_a55" href="#">
+                      <img id="c1mimh_img55" src="./image/content1_middle_imginfo_menu_hide/dianyuan.jpg" />
+                      <span id="c1mimh_span55">小米移动电源</span>
+                    </a>
+                    <h4 id="c1mimh_h455"></h4>
+                  </li>
+                  <li id="c1mimh_li56">
+                    <a id="c1mimh_a56" href="#">
+                      <img id="c1mimh_img56" src="./image/content1_middle_imginfo_menu_hide/powerscript.jpg" />
+                      <span id="c1mimh_span56">小米插排板</span>
+                    </a>
+                    <h4 id="c1mimh_h456"></h4>
+                  </li>
+                  <li id="c1mimh_li57">
+                    <a id="c1mimh_a57" href="#">
+                      <img id="c1mimh_img57" src="./image/content1_middle_imginfo_menu_hide/yidongdianyuan.jpg" />
+                      <span id="c1mimh_span57">品牌移动电源</span>
+                    </a>
+                    <h4 id="c1mimh_h457"></h4>
+                  </li>
+                  <li id="c1mimh_li58">
+                    <a id="c1mimh_a58" href="#">
+                      <img id="c1mimh_img58" src="./image/content1_middle_imginfo_menu_hide/dianyuanfujian.jpg" />
+                      <span id="c1mimh_span58">移动电源附件</span>
+                    </a>
+                    <h4 id="c1mimh_h458"></h4>
+                  </li>
+                  <li id="c1mimh_li59">
+                    <a id="c1mimh_a59" href="#">
+                      <img id="c1mimh_img59"  src="./image/content1_middle_imginfo_menu_hide/charger80.jpg" />
+                      <span id="c1mimh_span59">电池</span>
+                    </a>
+                    <h4 id="c1mimh_h459"></h4>
+                  </li>
+                  <li id="c1mimh_li60">
+                    <a id="c1mimh_a60" href="#">
+                      <img id="c1mimh_img60"  src="./image/content1_middle_imginfo_menu_hide/chongdianqi-80.jpg" />
+                      <span id="c1mimh_span60">充电器</span>
+                    </a>
+                    <h4 id="c1mimh_h460"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li61">
+                    <a id="c1mimh_a61" href="#">
+                      <img id="c1mimh_img61" src="./image/content1_middle_imginfo_menu_hide/5Battery1.jpg" />
+                      <span id="c1mimh_span61">彩虹5号电池</span>
+                    </a>
+                    <h4 id="c1mimh_h461"></h4>
+                  </li>
+                  <li id="c1mimh_li62">
+                    <a id="c1mimh_a62" href="#">
+                      <img id="c1mimh_img62" src="./image/content1_middle_imginfo_menu_hide/7Battery1.jpg" />
+                      <span id="c1mimh_span62">彩虹7号电池</span>
+                    </a>
+                    <h4 id="c1mimh_h462"></h4>
+                  </li>
+                  <li id="c1mimh_li63">
+                    <a id="c1mimh_a63" href="#">
+                      <img id="c1mimh_img63" src="" />
+                      <span id="c1mimh_span63"></span>
+                    </a>
+                    <h4 id="c1mimh_h463"></h4>
+                  </li>
+                  <li id="c1mimh_li64">
+                    <a id="c1mimh_a64" href="#">
+                      <img id="c1mimh_img64" src="" />
+                      <span id="c1mimh_span64"></span>
+                    </a>
+                    <h4 id="c1mimh_h464"></h4>
+                  </li>
+                  <li id="c1mimh_li65">
+                    <a id="c1mimh_a65" href="#">
+                      <img id="c1mimh_img65"  src="" />
+                      <span id="c1mimh_span65"></span>
+                    </a>
+                    <h4 id="c1mimh_h465"></h4>
+                  </li>
+                  <li id="c1mimh_li66">
+                    <a id="c1mimh_a66" href="#">
+                      <img id="c1mimh_img66"  src="" />
+                      <span id="c1mimh_span66"></span>
+                    </a>
+                    <h4 id="c1mimh_h466"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div6">
+                <ul>
+                  <li id="c1mimh_li67">
+                    <a id="c1mimh_a67" href="#">
+                      <img id="c1mimh_img67" src="./image/content1_middle_imginfo_menu_hide/headphone.jpg" />
+                      <span id="c1mimh_span67">小米头戴式耳机</span>
+                    </a>
+                    <h4 id="c1mimh_h467"></h4>
+                  </li>
+                  <li id="c1mimh_li68">
+                    <a id="c1mimh_a68" href="#">
+                      <img id="c1mimh_img68" src="./image/content1_middle_imginfo_menu_hide/quantie.jpg" />
+                      <span id="c1mimh_span68">小米圈铁耳机</span>
+                    </a>
+                    <h4 id="c1mimh_h468"></h4>
+                  </li>
+                  <li id="c1mimh_li69">
+                    <a id="c1mimh_a69" href="#">
+                      <img id="c1mimh_img69" src="./image/content1_middle_imginfo_menu_hide/jiaonang80.jpg" />
+                      <span id="c1mimh_span69">小米胶囊耳机</span>
+                    </a>
+                    <h4 id="c1mimh_h469"></h4>
+                  </li>
+                  <li id="c1mimh_li70">
+                    <a id="c1mimh_a70" href="#">
+                      <img id="c1mimh_img70" src="./image/content1_middle_imginfo_menu_hide/bluetoothheadset.jpg" />
+                      <span id="c1mimh_span70">小米蓝牙耳机</span>
+                    </a>
+                    <h4 id="c1mimh_h470"></h4>
+                  </li>
+                  <li id="c1mimh_li71">
+                    <a id="c1mimh_a71" href="#">
+                      <img id="c1mimh_img71"  src="./image/content1_middle_imginfo_menu_hide/pinpai80.jpg" />
+                      <span id="c1mimh_span71">品牌耳机</span>
+                    </a>
+                    <h4 id="c1mimh_h471"></h4>
+                  </li>
+                  <li id="c1mimh_li72">
+                    <a id="c1mimh_a72" href="#">
+                      <img id="c1mimh_img72"  src="./image/content1_middle_imginfo_menu_hide/pocketaudio.png" />
+                      <span id="c1mimh_span72">小米蓝牙音箱</span>
+                    </a>
+                    <h4 id="c1mimh_h472"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li73">
+                    <a id="c1mimh_a73" href="#">
+                      <img id="c1mimh_img73" src="./image/content1_middle_imginfo_menu_hide/suishen-80.jpg" />
+                      <span id="c1mimh_span73">小米随身携带蓝牙音箱</span>
+                    </a>
+                    <h4 id="c1mimh_h473"></h4>
+                  </li>
+                  <li id="c1mimh_li74">
+                    <a id="c1mimh_a74" href="#">
+                      <img id="c1mimh_img74" src="./image/content1_middle_imginfo_menu_hide/xiaogangpao2-hei-80.jpg" />
+                      <span id="c1mimh_span74">小钢炮音箱2</span>
+                    </a>
+                    <h4 id="c1mimh_h474"></h4>
+                  </li>
+                  <li id="c1mimh_li75">
+                    <a id="c1mimh_a75" href="#">
+                      <img id="c1mimh_img75" src="./image/content1_middle_imginfo_menu_hide/qignchungangpao-80.jpg" />
+                      <span id="c1mimh_span75">小钢炮音箱 青春版</span>
+                    </a>
+                    <h4 id="c1mimh_h475"></h4>
+                  </li>
+                  <li id="c1mimh_li76">
+                    <a id="c1mimh_a76" href="#">
+                      <img id="c1mimh_img76" src="./image/content1_middle_imginfo_menu_hide/fanghezi.jpg" />
+                      <span id="c1mimh_span76">小米方盒子音箱</span>
+                    </a>
+                    <h4 id="c1mimh_h476"></h4>
+                  </li>
+                  <li id="c1mimh_li77">
+                    <a id="c1mimh_a77" href="#">
+                      <img id="c1mimh_img77"  src="./image/content1_middle_imginfo_menu_hide/mituyinx80.jpg" />
+                      <span id="c1mimh_span77">小米米兔音箱</span>
+                    </a>
+                    <h4 id="c1mimh_h477"></h4>
+                  </li>
+                  <li id="c1mimh_li78">
+                    <a id="c1mimh_a78" href="#">
+                      <img id="c1mimh_img78"  src="./image/content1_middle_imginfo_menu_hide/radio80side.jpg" />
+                      <span id="c1mimh_span78">网络收音机</span>
+                    </a>
+                    <h4 id="c1mimh_h478"></h4>
+                  </li>
+                </ul>
+                <ul>
+                  <li id="c1mimh_li79">
+                    <a id="c1mimh_a79" href="#">
+                      <img id="c1mimh_img79" src="./image/content1_middle_imginfo_menu_hide/pinpaiyinxiang.jpg" />
+                      <span id="c1mimh_span79">品牌音箱</span>
+                    </a>
+                    <h4 id="c1mimh_h479"></h4>
+                  </li>
+                  <li id="c1mimh_li80">
+                    <a id="c1mimh_a80" href="#">
+                      <img id="c1mimh_img80" src="" />
+                      <span id="c1mimh_span80"></span>
+                    </a>
+                    <h4 id="c1mimh_h480"></h4>
+                  </li>
+                  <li id="c1mimh_li81">
+                    <a id="c1mimh_a81" href="#">
+                      <img id="c1mimh_img81" src="" />
+                      <span id="c1mimh_span81"></span>
+                    </a>
+                    <h4 id="c1mimh_h481"></h4>
+                  </li>
+                  <li id="c1mimh_li82">
+                    <a id="c1mimh_a82" href="#">
+                      <img id="c1mimh_img82"  src="" />
+                      <span id="c1mimh_span82"></span>
+                    </a>
+                    <h4 id="c1mimh_h482"></h4>
+                  </li>
+                  <li id="c1mimh_li83">
+                    <a id="c1mimh_a83" href="#">
+                      <img id="c1mimh_img83"  src="" />
+                      <span id="c1mimh_span83"></span>
+                    </a>
+                    <h4 id="c1mimh_h483"></h4>
+                  </li>
+                  <li id="c1mimh_li84">
+                    <a id="c1mimh_a84" href="#">
+                      <img id="c1mimh_img84" src="" />
+                      <span id="c1mimh_span84"></span>
+                    </a>
+                    <h4 id="c1mimh_h484"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div7">
+                <ul>
+                  <li id="c1mimh_li85">
+                    <a id="c1mimh_a85" href="#">
+                      <img id="c1mimh_img85" src="./image/content1_middle_imginfo_menu_hide/tiemo.jpg" />
+                      <span id="c1mimh_span85">贴膜</span>
+                    </a>
+                    <h4 id="c1mimh_h485"></h4>
+                  </li>
+                  <li id="c1mimh_li86">
+                    <a id="c1mimh_a86" href="#">
+                      <img id="c1mimh_img86" src="./image/content1_middle_imginfo_menu_hide/baohu.jpg" />
+                      <span id="c1mimh_span86">保护套/保护壳</span>
+                    </a>
+                    <h4 id="c1mimh_h486"></h4>
+                  </li>
+                  <li id="c1mimh_li87">
+                    <a id="c1mimh_a87" href="#">
+                      <img id="c1mimh_img87" src="./image/content1_middle_imginfo_menu_hide/hougai.jpg" />
+                      <span id="c1mimh_span87">后盖</span>
+                    </a>
+                    <h4 id="c1mimh_h487"></h4>
+                  </li>
+                  <li id="c1mimh_li88">
+                    <a id="c1mimh_a88" href="#">
+                      <img id="c1mimh_img88" src="./image/content1_middle_imginfo_menu_hide/tiezhi80.jpg" />
+                      <span id="c1mimh_span88">背贴</span>
+                    </a>
+                    <h4 id="c1mimh_h488"></h4>
+                  </li>
+                  <li id="c1mimh_li89">
+                    <a id="c1mimh_a89" href="#">
+                      <img id="c1mimh_img89"  src="" />
+                      <span id="c1mimh_span89"></span>
+                    </a>
+                    <h4 id="c1mimh_h489"></h4>
+                  </li>
+                  <li id="c1mimh_li90">
+                    <a id="c1mimh_a90" href="#">
+                      <img id="c1mimh_img90"  src="" />
+                      <span id="c1mimh_span90"></span>
+                    </a>
+                    <h4 id="c1mimh_h490"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div8">
+                <ul>
+                  <li id="c1mimh_li91">
+                    <a id="c1mimh_a91" href="#">
+                      <img id="c1mimh_img91" src="./image/content1_middle_imginfo_menu_hide/xiancai.jpg" />
+                      <span id="c1mimh_span91">线材</span>
+                    </a>
+                    <h4 id="c1mimh_h491"></h4>
+                  </li>
+                  <li id="c1mimh_li92">
+                    <a id="c1mimh_a92" href="#">
+                      <img id="c1mimh_img92" src="./image/content1_middle_imginfo_menu_hide/zipaigan.jpg" />
+                      <span id="c1mimh_span92">自拍杆</span>
+                    </a>
+                    <h4 id="c1mimh_h492"></h4>
+                  </li>
+                  <li id="c1mimh_li93">
+                    <a id="c1mimh_a93" href="#">
+                      <img id="c1mimh_img93" src="./image/content1_middle_imginfo_menu_hide/zhijia.jpg" />
+                      <span id="c1mimh_span93">手机支架</span>
+                    </a>
+                    <h4 id="c1mimh_h493"></h4>
+                  </li>
+                  <li id="c1mimh_li94">
+                    <a id="c1mimh_a94" href="#">
+                      <img id="c1mimh_img94" src="./image/content1_middle_imginfo_menu_hide/cunchu.jpg" />
+                      <span id="c1mimh_span94">储存卡</span>
+                    </a>
+                    <h4 id="c1mimh_h494"></h4>
+                  </li>
+                  <li id="c1mimh_li95">
+                    <a id="c1mimh_a95" href="#">
+                      <img id="c1mimh_img95"  src="" />
+                      <span id="c1mimh_span95"></span>
+                    </a>
+                    <h4 id="c1mimh_h495"></h4>
+                  </li>
+                  <li id="c1mimh_li96">
+                    <a id="c1mimh_a96" href="#">
+                      <img id="c1mimh_img96"  src="" />
+                      <span id="c1mimh_span96"></span>
+                    </a>
+                    <h4 id="c1mimh_h496"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div9">
+                <ul>
+                  <li id="c1mimh_li97">
+                    <a id="c1mimh_a97" href="#">
+                      <img id="c1mimh_img97" src="./image/content1_middle_imginfo_menu_hide/xiangbao-80.jpg" />
+                      <span id="c1mimh_span97">箱包</span>
+                    </a>
+                    <h4 id="c1mimh_h497"></h4>
+                  </li>
+                  <li id="c1mimh_li98">
+                    <a id="c1mimh_a98" href="#">
+                      <img id="c1mimh_img98" src="./image/content1_middle_imginfo_menu_hide/lvxingxiang.jpg" />
+                      <span id="c1mimh_span98">90分旅行箱</span>
+                    </a>
+                    <h4 id="c1mimh_h498"></h4>
+                  </li>
+                  <li id="c1mimh_li99">
+                    <a id="c1mimh_a99" href="#">
+                      <img id="c1mimh_img99" src="./image/content1_middle_imginfo_menu_hide/fuzhuang-80.jpg" />
+                      <span id="c1mimh_span99">服饰</span>
+                    </a>
+                    <h4 id="c1mimh_h499"></h4>
+                  </li>
+                  <li id="c1mimh_li100">
+                    <a id="c1mimh_a100" href="#">
+                      <img id="c1mimh_img100" src="" />
+                      <span id="c1mimh_span100"></span>
+                    </a>
+                    <h4 id="c1mimh_h4100"></h4>
+                  </li>
+                  <li id="c1mimh_li101">
+                    <a id="c1mimh_a101" href="#">
+                      <img id="c1mimh_img101"  src="" />
+                      <span id="c1mimh_span101"></span>
+                    </a>
+                    <h4 id="c1mimh_h4101"></h4>
+                  </li>
+                  <li id="c1mimh_li102">
+                    <a id="c1mimh_a102" href="#">
+                      <img id="c1mimh_img102"  src="" />
+                      <span id="c1mimh_span102"></span>
+                    </a>
+                    <h4 id="c1mimh_h4102"></h4>
+                  </li>
+                </ul>
+              </div>
+              <div id="c1mimh_div10">
+                <ul>
+                  <li id="c1mimh_li103">
+                    <a id="c1mimh_a103" href="#">
+                      <img id="c1mimh_img103" src="./image/content1_middle_imginfo_menu_hide/mitu-80.jpg" />
+                      <span id="c1mimh_span103">米兔玩偶</span>
+                    </a>
+                    <h4 id="c1mimh_h4103"></h4>
+                  </li>
+                  <li id="c1mimh_li104">
+                    <a id="c1mimh_a104" href="#">
+                      <img id="c1mimh_img104" src="./image/content1_middle_imginfo_menu_hide/shubiaodian-80.jpg" />
+                      <span id="c1mimh_span104">鼠标垫</span>
+                    </a>
+                    <h4 id="c1mimh_h4104"></h4>
+                  </li>
+                  <li id="c1mimh_li105">
+                    <a id="c1mimh_a105" href="#">
+                      <img id="c1mimh_img105" src="./image/content1_middle_imginfo_menu_hide/zhoubian1.jpg" />
+                      <span id="c1mimh_span105">生活周边</span>
+                    </a>
+                    <h4 id="c1mimh_h4105"></h4>
+                  </li>
+                  <li id="c1mimh_li106">
+                    <a id="c1mimh_a106" href="#">
+                      <img id="c1mimh_img106" src="./image/content1_middle_imginfo_menu_hide/80-80.jpg" />
+                      <span id="c1mimh_span106">《小米》目录杂志</span>
+                    </a>
+                    <h4 id="c1mimh_h4106"></h4>
+                  </li>
+                  <li id="c1mimh_li107">
+                    <a id="c1mimh_a107" href="#">
+                      <img id="c1mimh_img107"  src="./image/content1_middle_imginfo_menu_hide/rujiao80.jpg" />
+                      <span id="c1mimh_span107">8H乳胶枕</span>
+                    </a>
+                    <h4 id="c1mimh_h4107"></h4>
+                  </li>
+                  <li id="c1mimh_li108">
+                    <a id="c1mimh_a108" href="#">
+                      <img id="c1mimh_img108"  src="" />
+                      <span id="c1mimh_span108"></span>
+                    </a>
+                    <h4 id="c1mimh_h4108"></h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="imginfo_img_left" onmousedown="MousedownIIL(event)"></div><!--  -->
+          <div id="imginfo_img_right" onmousedown="MousedownIIR(event)"></div><!--  -->
+          <div id="imginfo_img_xuan">
+            <div id="imginfo_img_xuan1" onmouseover="MouseoverIIMGX(event)" onmouseout="MouseoutIIMGX(event)">1</div>
+            <div id="imginfo_img_xuan2" onmouseover="MouseoverIIMGX(event)" onmouseout="MouseoutIIMGX(event)">2</div>
+            <div id="imginfo_img_xuan3" onmouseover="MouseoverIIMGX(event)" onmouseout="MouseoutIIMGX(event)">3</div>
+            <div id="imginfo_img_xuan4" onmouseover="MouseoverIIMGX(event)" onmouseout="MouseoutIIMGX(event)">4</div>
+            <div id="imginfo_img_xuan5" onmouseover="MouseoverIIMGX(event)" onmouseout="MouseoutIIMGX(event)">5</div>
+          </div>
+        </div>
+        <div id="content1_middle_addinfo">  <!-- 中间第一大部分内容中附加信息 -->
+          <table class="content1_middle_addinfo_left">
+            <tr>
+              <td id="c1mal_td1">
+                <img id="c1mal_img1" src="./image/content1_middle_addinfo_left/td_01.png" />
+              </td>
+              <td id="c1mal_td2">
+                <img id="c1mal_img2" src="./image/content1_middle_addinfo_left/td_02.png" />
+              </td>
+              <td id="c1mal_td3">
+                <img id="c1mal_img3" src="./image/content1_middle_addinfo_left/td_03.png" />
+              </td>
+            </tr>
+            <tr>
+              <td id="c1mal_td4">
+                <img id="c1mal_img4" src="./image/content1_middle_addinfo_left/td_04.png" />
+              </td>
+              <td id="c1mal_td5">
+                <img id="c1mal_img5" src="./image/content1_middle_addinfo_left/td_05.png" />
+              </td>
+              <td id="c1mal_td6">
+                <img id="c1mal_img6" src="./image/content1_middle_addinfo_left/td_06.png" />
+              </td>
+            </tr>
+          </table>
+          <table id="content1_middle_addinfo_right">
+            <tr>
+              <td id="c1mar_td1"><img id="c1mar_img1" src="./image/content1_middle_addinfo_left/88c7e4f6-d774-40ad-a055-73254a707a2e.jpg"></td>
+              <td id="c1mar_td2"><img id="c1mar_img2" src="./image/content1_middle_addinfo_left/bef939d6-e8d8-42b8-a36e-59ccf8db17de.jpg"></td>
+              <td id="c1mar_td3"><img id="c1mar_img3" src="./image/content1_middle_addinfo_left/5de66837-5950-4c92-8ba1-544c0c913701.jpg"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="content1_middle_sell">  <!-- 中间第一大部分内容中卖商品模块 -->
+          <div id="content1_middle_sell_top">
+            <h2 id="content1_middle_sell_top_h2">小米明星单品</h2>
+            <div id="content1_middle_sell_top_right">
+              <span id="c1mstopr_a2" href="#" onmouseover="MouseoverCTRA(event)" onmouseout="MouseoutCTRA(event)" onmousedown="MousedownCTRA(event)" onmouseup="MouseupCTRA(event)">&#xf148;</span>
+              <span id="c1mstopr_a1" href="#" onmouseover="MouseoverCTRA(event)" onmouseout="MouseoutCTRA(event)" onmousedown="MousedownCTRA(event)" onmouseup="MouseupCTRA(event)">&#xf1a9;</span>
+            </div>
+          </div>
+          <div id="content1_middle_sell_bottom">
+            <div id="content1_middle_sell_bottoming">
+              <ul>
+                <li id="c1msbing_li1">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/MI5.jpg" /></a>
+                  <a href="#"><h4 id="c1msbing_h41">小米5 高配64GB</h4></a>
+                  <p id="c1msbing_p1">赠 49元小米自拍杆</p>
+                  <span id="c1msbing_span1">2099元</span>
+                </li>
+                <li id="c1msbing_li2">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/MIMax.png" /></a>
+                  <a href="#"><h4 id="c1msbing_h42">小米Max</h4></a>
+                  <p id="c1msbing_p2">赠 59元智能显示保护套</p>
+                  <span id="c1msbing_span2">1799元</span>
+                </li>
+                <li id="c1msbing_li3">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/HongMIPro.png" /></a>
+                  <a href="#"><h4 id="c1msbing_h43">红米Pro 十核双摄</h4></a>
+                  <p id="c1msbing_p3">赠 5000mAh移动电源</p>
+                  <span id="c1msbing_span3">1499元起</span>
+                </li>
+                <li id="c1msbing_li4">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/MIBen.jpg" /></a>
+                  <a href="#"><h4 id="c1msbing_h44">小米笔记本</h4></a>
+                  <p id="c1msbing_p4">独立显卡、超轻薄、金属机身</p>
+                  <span id="c1msbing_span4">3499元起</span>
+                </li>
+                <li id="c1msbing_li5">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/MIPingBan.png" /></a>
+                  <a href="#"><h4 id="c1msbing_h45">小米平板2 16GB现货</h4></a>
+                  <p id="c1msbing_p5">轻薄全金属，海量内容</p>
+                  <span id="c1msbing_span5">999元</span>
+                </li>
+              </ul>
+              <ul>
+                <li id="c1msbing_li6">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/MIDianShi.png" /></a>
+                  <a href="#"><h4 id="c1msbing_h46">小米电视3S 48英寸</h4></a>
+                  <p id="c1msbing_p6">原装液晶屏，金属机身</p>
+                  <span id="c1msbing_span6">1999元</span>
+                </li>
+                <li id="c1msbing_li7">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/T1FfA_BCJv1RXrhCrK.jpg" /></a>
+                  <a href="#"><h4 id="c1msbing_h47">小米盒子3 增强版</h4></a>
+                  <p id="c1msbing_p7">高端 4K 网络机顶盒</p>
+                  <span id="c1msbing_span7">399元</span>
+                </li>
+                <li id="c1msbing_li8">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/Huan.png" /></a>
+                  <a href="#"><h4 id="c1msbing_h48">小米手环 2</h4></a>
+                  <p id="c1msbing_p8">每天早10点开售</p>
+                  <span id="c1msbing_span8">149元</span>
+                </li>
+                <li id="c1msbing_li9">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/CHeng.jpg" /></a>
+                  <a href="#"><h4 id="c1msbing_h49">小米体重秤</h4></a>
+                  <p id="c1msbing_p9">100克，喝杯水都可感知的精准</p>
+                  <span id="c1msbing_span9">99元</span>
+                </li>
+                <li id="c1msbing_li10">
+                  <a href="#"><img src="./image/content1_middle_sell_bottoming/T11UJ_BvLv1RXrhCrK.jpg" /></a>
+                  <a href="#"><h4 id="c1msbing_h410">小米空气净化器2</h4></a>
+                  <p id="c1msbing_p10">10分钟，房间空气焕然一新</p>
+                  <span id="c1msbing_span10">699元</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content2">  <!-- 中间第二大部分内容模块 -->
+      <div id="content2_middle">  <!-- 中间所有内容 -->
+        <div id="content2_middle_hardware">  <!-- 中间第二大部分内容中硬件信息 -->
+          <div id="content2_middle_hardware_top">
+            <h2 id="cmht1">智能硬件</h2>
+            <center id="center"><h4 id="cmht3">&#xf198;</h4><h5 id="cmht2">查看全部&nbsp&nbsp</h5></center>
+          </div>
+          <div class="content2_middle_hardware_content">
+            <div class="cmhacd1" id="cmhacd1"><img src="./image/content2_middle_hardware/d1.jpg"/></div>
+            <div class="cmhacd2" id="cmhacd2">
+              <center class="cmhct2" id="cmhct2">免邮费</center>
+              <img src="./image/content2_middle_hardware/d2.jpg"/>
+              <a class="cmhca2" id="cmhca2" href="#">小米路由器3</a>
+              <p class="cmhcp2" id="cmhcp2">四天线设计，更安全更稳定</p>
+              <p class id="money2" class="money">149元</p>
+            </div>
+            <div class="cmhacd3" id="cmhacd3">
+              <center class="gift" id="cmhct3">有赠品</center>
+              <img src="./image/content2_middle_hardware/d3.jpg"/>
+              <a class="cmhca3" id="cmhca3" href="#">米兔智能故事机</a>
+              <p class="cmhcp3" id="cmhcp3">微信远程互动，智能语音交互</p>
+              <p id="money3" class="money">199元</p>
+            </div>
+            <div class="cmhacd4" id="cmhacd4">
+              <center class="new" id="cmhct4">新品</center>
+              <img src="./image/content2_middle_hardware/d4.jpg"/>
+              <a class="cmhca4" id="cmhca4" href="#">米家飞利浦智睿台灯二代</a>
+              <p class="cmhcp4" id="cmhcp4">感知环境光，主动优化场景照明</p>
+              <p id="money4" class="money">199元</p>
+            </div>
+            <div class="cmhacd5" id="cmhacd5">
+              <center class="empty" id="cmhct5">　</center>
+              <img src="./image/content2_middle_hardware/d5.jpg"/>
+              <a class="cmhca5" id="cmhca5" href="#">九号平衡车</a>
+              <p class="cmhcp5" id="cmhcp5">年轻人的酷玩具，骑行遥控两种玩法</p>
+              <p id="money5" class="money">1999元</p>
+            </div>
+            <div class="cmhacd6" id="cmhacd6">
+              <center class="cmhct6" id="cmhct6">免邮费</center>
+              <img src="./image/content2_middle_hardware/d6.jpg"/>
+              <a class="cmhca6" id="cmhca6" href="#">米家iHealth血压计</a>
+              <p class="cmhcp6" id="cmhcp6">爸妈上手就会用的智能血压计</p>
+              <p id="money6" class="money">399元</p>
+            </div>
+            <div class="cmhacd7" id="cmhacd7">
+              <center class="cmhct7" id="cmhct7">免邮费</center>
+              <img src="./image/content2_middle_hardware/d7.jpg"/>
+              <a class="cmhca7" id="cmhca7" href="#">小米净水器 厨下式</a>
+              <p class="cmhcp7" id="cmhcp7">限时享花呗三期免息，直出纯净水</p>
+              <p id="money7" class="money">1999元</p>
+            </div>
+            <div class="cmhacd8" id="cmhacd8">
+              <center class="empty" id="cmhct8">　</center>
+              <img src="./image/content2_middle_hardware/d8.jpg"/>
+              <a class="cmhca8" id="cmhca8" href="#">米家小白智能摄像机</a>
+              <p class="cmhcp8" id="cmhcp8">360度全景拍摄，双向语音通话</p>
+              <p id="money8" class="money">399元</p>
+            </div>
+            <div class="cmhacd9" id="cmhacd9">
+              <center class="empty" id="cmhct9">　</center>
+              <img src="./image/content2_middle_hardware/d9.jpg"/>
+              <a class="cmhca9" id="cmhca9" href="#">电助力折叠自行车</a>
+              <p class="cmhcp9" id="cmhcp9">力矩传感电助力，折叠便携设计</p>
+              <p id="money9" class="money">2999元</p>
+            </div>
+          </div>
+        </div>
+        <div id="content2_middle_collocation" class="content2_middle_collocation">  <!-- 中间第二大部分内容中搭配信息 -->
+          <div class="content2_middle_collocation_top">
+            <p><span id="cmctspan1">搭配</span></p>
+            <ul>
+              <a href="#" onmouseover="MouseoverCMCT(4)"><li class="cmctli4" id="cmctli4_1">电池存储卡</li></a>
+              <a href="#" onmouseover="MouseoverCMCT(3)"><li class="cmctli3" id="cmctli3_1">电源</li></a>
+              <a href="#" onmouseover="MouseoverCMCT(2)"><li class="cmctli2" id="cmctli2_1">耳机音箱</li></a>
+              <a href="#" onmouseover="MouseoverCMCT(1)"><li class="cmctli1" id="cmctli1_1">热门</li></a>
+            </ul>
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_collocation_content1">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(1)" onmouseout="MouseoutDIVHIDE(1)">
+              <center class="empty" id="threecmhct1">　</center>
+              <img src="./image/content2_middle_collocation/d2.jpg"/>
+              <a class="cmhca2" id="threecmhca1" href="#">小米圈铁耳机 银色</a>
+              <p class="money" id="threemoney1">99元</p>
+              <p class="cmhcp2" id="threecmhcp1">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide1">
+                  <h5 class="threedivhidep1" id="threedivhidep1_1">客服妹子实话说吧！永远支持国产，永远支持小米。这圈铁...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_1">来自于 894039435 的评价</p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(2)" onmouseout="MouseoutDIVHIDE(2)">
+              <center class="" id="threecmhct2">免邮费</center>
+              <img src="./image/content2_middle_collocation/d3.jpg"/>
+              <a class="cmhca3" id="threecmhca2" href="#">小米插线板</a>
+              <p class="money" id="threemoney2">49元</p>
+              <p class="cmhcp3" id="threecmhcp2">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide2">
+                  <h5 class="threedivhidep1" id="threedivhidep1_2">做工沒的說，摸起來手感非常細膩，而且比起傳統的插線板...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_2"> 来自于 林岐城 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(3)" onmouseout="MouseoutDIVHIDE(3)">
+              <center class="empty" id="threecmhct3">　</center>
+              <img src="./image/content2_middle_collocation/d4.jpg"/>
+              <a class="cmhca4" id="threecmhca3" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney3">79元</p>
+              <p class="cmhcp4" id="threecmhcp3">9.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide3">
+                  <h5 class="threedivhidep1" id="threedivhidep1_3">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_3"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(4)" onmouseout="MouseoutDIVHIDE(4)">
+              <center class="new" id="threecmhct4">新品</center>
+              <img src="./image/content2_middle_collocation/d5.jpg"/>
+              <a class="cmhca5" id="threecmhca4" href="#">小米移动电源10000mAh高配套...</a>
+              <p class="money" id="threemoney4">169元</p>
+              <p class="cmhcp5" id="threecmhcp4">148人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide4">
+                  <h5 class="threedivhidep1" id="threedivhidep1_4">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_4"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(5)" onmouseout="MouseoutDIVHIDE(5)">
+              <center class="empty" id="threecmhct5">　</center>
+              <img src="./image/content2_middle_collocation/d7.jpg"/>
+              <a class="cmhca7" id="threecmhca5" href="#">小米移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney5">149元</p>
+              <p class="cmhcp7" id="threecmhcp5">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide5">
+                  <h5 class="threedivhidep1" id="threedivhidep1_5">手感超舒服，有USB C输入充电，以后不用到处换插头了</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_5"> 来自于 玻璃樽81 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(6)" onmouseout="MouseoutDIVHIDE(6)">
+              <center class="gift" id="threecmhct6">有赠品</center>
+              <img src="./image/content2_middle_collocation/d8.jpg"/>
+              <a class="cmhca8" id="threecmhca6" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney6">129元</p>
+              <p class="cmhcp8" id="threecmhcp6">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide6">
+                  <h5 class="threedivhidep1" id="threedivhidep1_6">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_6"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(7)" onmouseout="MouseoutDIVHIDE(7)">
+              <center class="" id="threecmhct7">免邮费</center>
+              <img src="./image/content2_middle_collocation/d9.jpg"/>
+              <a class="cmhca9" id="threecmhca7" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney7">129元</p>
+              <p class="cmhcp9" id="threecmhcp7">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide7">
+                  <h5 class="threedivhidep1" id="threedivhidep1_7">199能有这效果有点惊喜</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_7"> 来自于 efunliu 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(8)" onmouseout="MouseoutDIVHIDE(8)">
+              <center class="empty" id="threecmhct8">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d10.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca8" href="#">小米钢炮...</a>
+              <p class="money" id="threemoney8">99元</p>
+              <p class="cmhcp10" id="threecmhcp8"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide8">
+                  <h5 class="threedivhidep1" id="threedivhidep1_8"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_8"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(9)" onmouseout="MouseoutDIVHIDE(9)">
+              <center class="empty" id="threecmhct9">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca9" href="#">浏览更多</a>
+              <p class="money" id="threemoney9"></p>
+              <p class="cmhcp11" id="threecmhcp9">热门</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide9">
+                  <h5 class="threedivhidep1" id="threedivhidep1_9"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_9"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_collocation_content2">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(10)" onmouseout="MouseoutDIVHIDE(10)">
+              <center class="empty" id="threecmhct10">　</center>
+              <img src="./image/content2_middle_collocation/d12.jpg"/>
+              <a class="cmhca2" id="threecmhca10" href="#">小米圈铁耳机</a>
+              <p class="money" id="threemoney10">99元</p>
+              <p class="cmhcp2" id="threecmhcp10">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide10">
+                  <h5 class="threedivhidep1" id="threedivhidep1_10">一上手就试试，音质还不错，煲机后会更好</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_10"> 来自于 张杰奇 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(11)" onmouseout="MouseoutDIVHIDE(11)">
+              <center class="empty" id="threecmhct11">　</center>
+              <img src="./image/content2_middle_collocation/d13.jpg"/>
+              <a class="cmhca3" id="threecmhca11" href="#">小米胶囊耳机</a>
+              <p class="money" id="threemoney11">69元</p>
+              <p class="cmhcp3" id="threecmhcp11">1.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide11">
+                  <h5 class="threedivhidep1" id="threedivhidep1_11">拿到手，感觉很炫！试了一下，音质挺好！挺喜欢！5星..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_11"> 来自于 程桂兴吖 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(12)" onmouseout="MouseoutDIVHIDE(12)">
+              <center class="empty" id="threecmhct12">　</center>
+              <img src="./image/content2_middle_collocation/d14.jpg"/>
+              <a class="cmhca4" id="threecmhca12" href="#">小米活塞耳机 基础版</a>
+              <p class="money" id="threemoney12">29元</p>
+              <p class="cmhcp4" id="threecmhcp12">6.6万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide12">
+                  <h5 class="threedivhidep1" id="threedivhidep1_12">耳机佩戴舒服，颜色鲜艳，关键音质好，低音震撼。</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_12"> 来自于 薛卫山0501 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(13)" onmouseout="MouseoutDIVHIDE(13)">
+              <center class="empty" id="threecmhct13">　</center>
+              <img src="./image/content2_middle_collocation/d15.jpg"/>
+              <a class="cmhca5" id="threecmhca13" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney13">79元</p>
+              <p class="cmhcp5" id="threecmhcp13">9.4万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide13">
+                  <h5 class="threedivhidep1" id="threedivhidep1_13">小米的产品值得信赖，用了一段时间，无论是听歌，打电话...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_13"> 来自于 气功流 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(14)" onmouseout="MouseoutDIVHIDE(14)">
+              <center class="empty" id="threecmhct14">　</center>
+              <img src="./image/content2_middle_collocation/d17.jpg"/>
+              <a class="cmhca7" id="threecmhca14" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney14">129元</p>
+              <p class="cmhcp7" id="threecmhcp14">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide14">
+                  <h5 class="threedivhidep1" id="threedivhidep1_14">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_14"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(15)" onmouseout="MouseoutDIVHIDE(15)">
+              <center class="empty" id="threecmhct15">　</center>
+              <img src="./image/content2_middle_collocation/d18.jpg"/>
+              <a class="cmhca8" id="threecmhca15" href="#">方盒子音箱</a>
+              <p class="money" id="threemoney15">89元</p>
+              <p class="cmhcp8" id="threecmhcp15">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide15">
+                  <h5 class="threedivhidep1" id="threedivhidep1_15">音质真棒！比我带低音炮的笔记本放音乐音质还好!哈哈！...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_15"> 来自于 Homic 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(16)" onmouseout="MouseoutDIVHIDE(16)">
+              <center class="empty" id="threecmhct16">　</center>
+              <img src="./image/content2_middle_collocation/d19.jpg"/>
+              <a class="cmhca9" id="threecmhca16" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney16">199元</p>
+              <p class="cmhcp9" id="threecmhcp16">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide16">
+                  <h5 class="threedivhidep1" id="threedivhidep1_16">还可以插内存卡，可以插线播放，音质很棒，如果体积大点...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_16"> 来自于 422979039 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(17)" onmouseout="MouseoutDIVHIDE(17)">
+              <center class="empty" id="threecmhct17">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d20.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca17" href="#">睿米车载蓝</a>
+              <p class="money" id="threemoney17">69元</p>
+              <p class="cmhcp10" id="threecmhcp17"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide17">
+                  <h5 class="threedivhidep1" id="threedivhidep1_17"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_17"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(18)" onmouseout="MouseoutDIVHIDE(18)">
+              <center class="empty" id="threecmhct18">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca18" href="#">浏览更多</a>
+              <p class="money" id="threemoney18"></p>
+              <p class="cmhcp11" id="threecmhcp18">耳机音箱</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide18">
+                  <h5 class="threedivhidep1" id="threedivhidep1_18"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_18"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_collocation_content3">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(19)" onmouseout="MouseoutDIVHIDE(19)">
+              <center class="empty" id="threecmhct19">　</center>
+              <img src="./image/content2_middle_collocation/d22.jpg"/>
+              <a class="cmhca2" id="threecmhca19" href="#">移动电源5000mAh</a>
+              <p class="money" id="threemoney19">49元</p>
+              <p class="cmhcp2" id="threecmhcp19">9.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide19">
+                  <h5 class="threedivhidep1" id="threedivhidep1_19">之前都不知道，还以为是18650电芯的。拿到手...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_19"> 来自于 ywtdzh 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(20)" onmouseout="MouseoutDIVHIDE(20)">
+              <center class="empty" id="threecmhct20">　</center>
+              <img src="./image/content2_middle_collocation/d23.jpg"/>
+              <a class="cmhca3" id="threecmhca20" href="#">小米移动电源10000mAh高配...</a>
+              <p class="money" id="threemoney20">169元</p>
+              <p class="cmhcp3" id="threecmhcp20">157人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide20">
+                  <h5 class="threedivhidep1" id="threedivhidep1_20">一直想买这款移动电源，只是星空灰色对于一个女生来说，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_20"> 来自于 波波仔 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(21)" onmouseout="MouseoutDIVHIDE(21)">
+              <center class="empty" id="threecmhct21">　</center>
+              <img src="./image/content2_middle_collocation/d24.jpg"/>
+              <a class="cmhca4" id="threecmhca21" href="#">移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney21">149元</p>
+              <p class="cmhcp4" id="threecmhcp21">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide21">
+                  <h5 class="threedivhidep1" id="threedivhidep1_21">很薄，充电快，方便携带</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_21"> 来自于 CURGT丶FaKer 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(22)" onmouseout="MouseoutDIVHIDE(22)">
+              <center class="empty" id="threecmhct22">　</center>
+              <img src="./image/content2_middle_collocation/d25.jpg"/>
+              <a class="cmhca5" id="threecmhca22" href="#">移动电源20000mAh</a>
+              <p class="money" id="threemoney22">149元</p>
+              <p class="cmhcp5" id="threecmhcp22">5.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide22">
+                  <h5 class="threedivhidep1" id="threedivhidep1_22">以前一直使用10400的版本，买了这个之后，才知道有...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_22"> 来自于 呈现逐步 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(23)" onmouseout="MouseoutDIVHIDE(23)">
+              <center class="empty" id="threecmhct23">　</center>
+              <img src="./image/content2_middle_collocation/d27.jpg"/>
+              <a class="cmhca7" id="threecmhca23" href="#">10000mAh小米移动电源保护套</a>
+              <p class="money" id="threemoney23">19.9元</p>
+              <p class="cmhcp7" id="threecmhcp23">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide23">
+                  <h5 class="threedivhidep1" id="threedivhidep1_23">可好了，能有效的保护手机了，再也不用担心移动电...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_23"> 来自于 682837881 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(24)" onmouseout="MouseoutDIVHIDE(24)">
+              <center class="empty" id="threecmhct24">　</center>
+              <img src="./image/content2_middle_collocation/d28.jpg"/>
+              <a class="cmhca8" id="threecmhca24" href="#">小米插线板（3孔位+USB）</a>
+              <p class="money" id="threemoney24">49元</p>
+              <p class="cmhcp8" id="threecmhcp24">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide24">
+                  <h5 class="threedivhidep1" id="threedivhidep1_24">东西真心不错，用过最好用的插线板，做工外观没得挑剔，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_24"> 来自于 yinyin19891117 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(25)" onmouseout="MouseoutDIVHIDE(25)">
+              <center class="empty" id="threecmhct25">　</center>
+              <img src="./image/content2_middle_collocation/d29.jpg"/>
+              <a class="cmhca9" id="threecmhca25" href="#">小米USB充电器（4口）</a>
+              <p class="money" id="threemoney25">79元</p>
+              <p class="cmhcp9" id="threecmhcp25">8921人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide25">
+                  <h5 class="threedivhidep1" id="threedivhidep1_25">产品质量一如既往的好，小巧玲珑，方便携带，旅行必备</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_25"> 来自于 YY2TH 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(26)" onmouseout="MouseoutDIVHIDE(26)">
+              <center class="empty" id="threecmhct26">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d30.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca26" href="#">小米插线板..</a>
+              <p class="money" id="threemoney26">39元</p>
+              <p class="cmhcp10" id="threecmhcp26"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide26">
+                  <h5 class="threedivhidep1" id="threedivhidep1_26"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_26"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(27)" onmouseout="MouseoutDIVHIDE(27)">
+              <center class="empty" id="threecmhct27">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca27" href="#">浏览更多</a>
+              <p class="money" id="threemoney27"></p>
+              <p class="cmhcp11" id="threecmhcp27">电源</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide27">
+                  <h5 class="threedivhidep1" id="threedivhidep1_27"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_27"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_collocation_content4">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(28)" onmouseout="MouseoutDIVHIDE(28)">
+              <center class="empty" id="threecmhct28">　</center>
+              <img src="./image/content2_middle_collocation/d32.jpg"/>
+              <a class="cmhca2" id="threecmhca28" href="#">SanDisk 16GB存储卡（Class4）</a>
+              <p class="money" id="threemoney28">26.9元</p>
+              <p class="cmhcp2" id="threecmhcp28">8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide28">
+                  <h5 class="threedivhidep1" id="threedivhidep1_28">物美价廉，正品行货，发货迅速</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_28"> 来自于 sharph 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(29)" onmouseout="MouseoutDIVHIDE(29)">
+              <center class="empty" id="threecmhct29">　</center>
+              <img src="./image/content2_middle_collocation/d33.jpg"/>
+              <a class="cmhca3" id="threecmhca29" href="#">原装快充套装</a>
+              <p class="money" id="threemoney29">58元</p>
+              <p class="cmhcp3" id="threecmhcp29">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide29">
+                  <h5 class="threedivhidep1" id="threedivhidep1_29">志银到此一游</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_29"> 来自于 志银 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(30)" onmouseout="MouseoutDIVHIDE(30)">
+              <center class="empty" id="threecmhct30">　</center>
+              <img src="./image/content2_middle_collocation/d34.jpg"/>
+              <a class="cmhca4" id="threecmhca30" href="#">彩虹5号电池（10粒装）</a>
+              <p class="money" id="threemoney30">9.9元</p>
+              <p class="cmhcp4" id="threecmhcp30">5.8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide30">
+                  <h5 class="threedivhidep1" id="threedivhidep1_30">彩虹的电量，彩虹的心情，彩虹的每一天</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_30"> 来自于 醉爱你HYA 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(31)" onmouseout="MouseoutDIVHIDE(31)">
+              <center class="empty" id="threecmhct31">　</center>
+              <img src="./image/content2_middle_collocation/d35.jpg"/>
+              <a class="cmhca5" id="threecmhca31" href="#">彩虹7号电池（10粒装）</a>
+              <p class="money" id="threemoney31">9.9元</p>
+              <p class="cmhcp5" id="threecmhcp31">4.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide31">
+                  <h5 class="threedivhidep1" id="threedivhidep1_31">好用，好看。。价格实惠</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_31"> 来自于 米米徳 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(32)" onmouseout="MouseoutDIVHIDE(32)">
+              <center class="empty" id="threecmhct32">　</center>
+              <img src="./image/content2_middle_collocation/d37.jpg"/>
+              <a class="cmhca7" id="threecmhca32" href="#">米兔手机U盘升级版 32GB</a>
+              <p class="money" id="threemoney32">79元</p>
+              <p class="cmhcp7" id="threecmhcp32">3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide32">
+                  <h5 class="threedivhidep1" id="threedivhidep1_32">超值正品，再也不会担心头那里时间久了坏掉，感觉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_32"> 来自于 香草忘忧 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(33)" onmouseout="MouseoutDIVHIDE(33)">
+              <center class="new" id="threecmhct33">新品</center>
+              <img src="./image/content2_middle_collocation/d38.jpg"/>
+              <a class="cmhca8" id="threecmhca33" href="#">镍氢充电电池套装</a>
+              <p class="money" id="threemoney33">88元</p>
+              <p class="cmhcp8" id="threecmhcp33">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide33">
+                  <h5 class="threedivhidep1" id="threedivhidep1_33">志银到此一游..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_33"> 来自于 志银 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(34)" onmouseout="MouseoutDIVHIDE(34)">
+              <center class="empty" id="threecmhct34">　</center>
+              <img src="./image/content2_middle_collocation/d39.jpg"/>
+              <a class="cmhca9" id="threecmhca34" href="#">小米车载充电器</a>
+              <p class="money" id="threemoney34">49元</p>
+              <p class="cmhcp9" id="threecmhcp34">3.4万评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide34">
+                  <h5 class="threedivhidep1" id="threedivhidep1_34">很好，个头小能量大，很满意</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_34"> 来自于 你再猜猜啊 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(35)" onmouseout="MouseoutDIVHIDE(35)">
+              <center class="empty" id="threecmhct35">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d40.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca35" href="#">红米2/红米2A能</a>
+              <p class="money" id="threemoney35">69元</p>
+              <p class="cmhcp10" id="threecmhcp35"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide35">
+                  <h5 class="threedivhidep1" id="threedivhidep1_35"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_35"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(36)" onmouseout="MouseoutDIVHIDE(36)">
+              <center class="empty" id="threecmhct36">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca36" href="#">浏览更多</a>
+              <p class="money" id="threemoney36"></p>
+              <p class="cmhcp11" id="threecmhcp36">电池储存卡</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide36">
+                  <h5 class="threedivhidep1" id="threedivhidep1_36"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_36"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+        </div>
+<!-- ==================以下两个部分还未换图片和用js调整字体大小==================== -->
+        <div id="content2_middle_parts" class="content2_middle_collocation">  <!-- 中间第二大部分内容中配件信息 -->
+          <div class="content2_middle_collocation_top">
+            <p><span id="cmctspan2">配件</span></p>
+            <ul>
+              <a href="#" onmouseover="MouseoverCMCTT(4)"><li class="cmctli4" id="cmctli4_2">其他配件</li></a>
+              <a href="#" onmouseover="MouseoverCMCTT(3)"><li class="cmctli3" id="cmctli3_2">贴膜</li></a>
+              <a href="#" onmouseover="MouseoverCMCTT(2)"><li class="cmctli2" id="cmctli2_2">保护套</li></a>
+              <a href="#" onmouseover="MouseoverCMCTT(1)"><li class="cmctli1" id="cmctli1_2">热门</li></a>
+            </ul>
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_parts1">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(1)" onmouseout="MouseoutDIVHIDE(1)">
+              <center class="empty" id="threecmhct1">　</center>
+              <img src="./image/content2_middle_collocation/d2.jpg"/>
+              <a class="cmhca2" id="threecmhca1" href="#">小米圈铁耳机 银色</a>
+              <p class="money" id="threemoney1">99元</p>
+              <p class="cmhcp2" id="threecmhcp1">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide1">
+                  <h5 class="threedivhidep1" id="threedivhidep1_1">客服妹子实话说吧！永远支持国产，永远支持小米。这圈铁...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_1">来自于 894039435 的评价</p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(2)" onmouseout="MouseoutDIVHIDE(2)">
+              <center class="" id="threecmhct2">免邮费</center>
+              <img src="./image/content2_middle_collocation/d3.jpg"/>
+              <a class="cmhca3" id="threecmhca2" href="#">小米插线板</a>
+              <p class="money" id="threemoney2">49元</p>
+              <p class="cmhcp3" id="threecmhcp2">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide2">
+                  <h5 class="threedivhidep1" id="threedivhidep1_2">做工沒的說，摸起來手感非常細膩，而且比起傳統的插線板...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_2"> 来自于 林岐城 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(3)" onmouseout="MouseoutDIVHIDE(3)">
+              <center class="empty" id="threecmhct3">　</center>
+              <img src="./image/content2_middle_collocation/d4.jpg"/>
+              <a class="cmhca4" id="threecmhca3" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney3">79元</p>
+              <p class="cmhcp4" id="threecmhcp3">9.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide3">
+                  <h5 class="threedivhidep1" id="threedivhidep1_3">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_3"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(4)" onmouseout="MouseoutDIVHIDE(4)">
+              <center class="new" id="threecmhct4">新品</center>
+              <img src="./image/content2_middle_collocation/d5.jpg"/>
+              <a class="cmhca5" id="threecmhca4" href="#">小米移动电源10000mAh高配套...</a>
+              <p class="money" id="threemoney4">169元</p>
+              <p class="cmhcp5" id="threecmhcp4">148人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide4">
+                  <h5 class="threedivhidep1" id="threedivhidep1_4">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_4"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(5)" onmouseout="MouseoutDIVHIDE(5)">
+              <center class="empty" id="threecmhct5">　</center>
+              <img src="./image/content2_middle_collocation/d7.jpg"/>
+              <a class="cmhca7" id="threecmhca5" href="#">小米移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney5">149元</p>
+              <p class="cmhcp7" id="threecmhcp5">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide5">
+                  <h5 class="threedivhidep1" id="threedivhidep1_5">手感超舒服，有USB C输入充电，以后不用到处换插头了</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_5"> 来自于 玻璃樽81 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(6)" onmouseout="MouseoutDIVHIDE(6)">
+              <center class="gift" id="threecmhct6">有赠品</center>
+              <img src="./image/content2_middle_collocation/d8.jpg"/>
+              <a class="cmhca8" id="threecmhca6" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney6">129元</p>
+              <p class="cmhcp8" id="threecmhcp6">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide6">
+                  <h5 class="threedivhidep1" id="threedivhidep1_6">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_6"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(7)" onmouseout="MouseoutDIVHIDE(7)">
+              <center class="" id="threecmhct7">免邮费</center>
+              <img src="./image/content2_middle_collocation/d9.jpg"/>
+              <a class="cmhca9" id="threecmhca7" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney7">129元</p>
+              <p class="cmhcp9" id="threecmhcp7">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide7">
+                  <h5 class="threedivhidep1" id="threedivhidep1_7">199能有这效果有点惊喜</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_7"> 来自于 efunliu 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(8)" onmouseout="MouseoutDIVHIDE(8)">
+              <center class="empty" id="threecmhct8">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d10.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca8" href="#">小米钢炮...</a>
+              <p class="money" id="threemoney8">99元</p>
+              <p class="cmhcp10" id="threecmhcp8"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide8">
+                  <h5 class="threedivhidep1" id="threedivhidep1_8"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_8"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(9)" onmouseout="MouseoutDIVHIDE(9)">
+              <center class="empty" id="threecmhct9">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca9" href="#">浏览更多</a>
+              <p class="money" id="threemoney9"></p>
+              <p class="cmhcp11" id="threecmhcp9">热门</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide9">
+                  <h5 class="threedivhidep1" id="threedivhidep1_9"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_9"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_parts2">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(10)" onmouseout="MouseoutDIVHIDE(10)">
+              <center class="empty" id="threecmhct10">　</center>
+              <img src="./image/content2_middle_collocation/d12.jpg"/>
+              <a class="cmhca2" id="threecmhca10" href="#">小米圈铁耳机</a>
+              <p class="money" id="threemoney10">99元</p>
+              <p class="cmhcp2" id="threecmhcp10">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide10">
+                  <h5 class="threedivhidep1" id="threedivhidep1_10">一上手就试试，音质还不错，煲机后会更好</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_10"> 来自于 张杰奇 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(11)" onmouseout="MouseoutDIVHIDE(11)">
+              <center class="empty" id="threecmhct11">　</center>
+              <img src="./image/content2_middle_collocation/d13.jpg"/>
+              <a class="cmhca3" id="threecmhca11" href="#">小米胶囊耳机</a>
+              <p class="money" id="threemoney11">69元</p>
+              <p class="cmhcp3" id="threecmhcp11">1.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide11">
+                  <h5 class="threedivhidep1" id="threedivhidep1_11">拿到手，感觉很炫！试了一下，音质挺好！挺喜欢！5星..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_11"> 来自于 程桂兴吖 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(12)" onmouseout="MouseoutDIVHIDE(12)">
+              <center class="empty" id="threecmhct12">　</center>
+              <img src="./image/content2_middle_collocation/d14.jpg"/>
+              <a class="cmhca4" id="threecmhca12" href="#">小米活塞耳机 基础版</a>
+              <p class="money" id="threemoney12">29元</p>
+              <p class="cmhcp4" id="threecmhcp12">6.6万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide12">
+                  <h5 class="threedivhidep1" id="threedivhidep1_12">耳机佩戴舒服，颜色鲜艳，关键音质好，低音震撼。</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_12"> 来自于 薛卫山0501 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(13)" onmouseout="MouseoutDIVHIDE(13)">
+              <center class="empty" id="threecmhct13">　</center>
+              <img src="./image/content2_middle_collocation/d15.jpg"/>
+              <a class="cmhca5" id="threecmhca13" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney13">79元</p>
+              <p class="cmhcp5" id="threecmhcp13">9.4万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide13">
+                  <h5 class="threedivhidep1" id="threedivhidep1_13">小米的产品值得信赖，用了一段时间，无论是听歌，打电话...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_13"> 来自于 气功流 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(14)" onmouseout="MouseoutDIVHIDE(14)">
+              <center class="empty" id="threecmhct14">　</center>
+              <img src="./image/content2_middle_collocation/d17.jpg"/>
+              <a class="cmhca7" id="threecmhca14" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney14">129元</p>
+              <p class="cmhcp7" id="threecmhcp14">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide14">
+                  <h5 class="threedivhidep1" id="threedivhidep1_14">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_14"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(15)" onmouseout="MouseoutDIVHIDE(15)">
+              <center class="empty" id="threecmhct15">　</center>
+              <img src="./image/content2_middle_collocation/d18.jpg"/>
+              <a class="cmhca8" id="threecmhca15" href="#">方盒子音箱</a>
+              <p class="money" id="threemoney15">89元</p>
+              <p class="cmhcp8" id="threecmhcp15">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide15">
+                  <h5 class="threedivhidep1" id="threedivhidep1_15">音质真棒！比我带低音炮的笔记本放音乐音质还好!哈哈！...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_15"> 来自于 Homic 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(16)" onmouseout="MouseoutDIVHIDE(16)">
+              <center class="empty" id="threecmhct16">　</center>
+              <img src="./image/content2_middle_collocation/d19.jpg"/>
+              <a class="cmhca9" id="threecmhca16" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney16">199元</p>
+              <p class="cmhcp9" id="threecmhcp16">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide16">
+                  <h5 class="threedivhidep1" id="threedivhidep1_16">还可以插内存卡，可以插线播放，音质很棒，如果体积大点...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_16"> 来自于 422979039 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(17)" onmouseout="MouseoutDIVHIDE(17)">
+              <center class="empty" id="threecmhct17">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d20.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca17" href="#">睿米车载蓝</a>
+              <p class="money" id="threemoney17">69元</p>
+              <p class="cmhcp10" id="threecmhcp17"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide17">
+                  <h5 class="threedivhidep1" id="threedivhidep1_17"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_17"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(18)" onmouseout="MouseoutDIVHIDE(18)">
+              <center class="empty" id="threecmhct18">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca18" href="#">浏览更多</a>
+              <p class="money" id="threemoney18"></p>
+              <p class="cmhcp11" id="threecmhcp18">耳机音箱</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide18">
+                  <h5 class="threedivhidep1" id="threedivhidep1_18"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_18"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_parts3">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(19)" onmouseout="MouseoutDIVHIDE(19)">
+              <center class="empty" id="threecmhct19">　</center>
+              <img src="./image/content2_middle_collocation/d22.jpg"/>
+              <a class="cmhca2" id="threecmhca19" href="#">移动电源5000mAh</a>
+              <p class="money" id="threemoney19">49元</p>
+              <p class="cmhcp2" id="threecmhcp19">9.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide19">
+                  <h5 class="threedivhidep1" id="threedivhidep1_19">之前都不知道，还以为是18650电芯的。拿到手...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_19"> 来自于 ywtdzh 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(20)" onmouseout="MouseoutDIVHIDE(20)">
+              <center class="empty" id="threecmhct20">　</center>
+              <img src="./image/content2_middle_collocation/d23.jpg"/>
+              <a class="cmhca3" id="threecmhca20" href="#">小米移动电源10000mAh高配...</a>
+              <p class="money" id="threemoney20">169元</p>
+              <p class="cmhcp3" id="threecmhcp20">157人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide20">
+                  <h5 class="threedivhidep1" id="threedivhidep1_20">一直想买这款移动电源，只是星空灰色对于一个女生来说，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_20"> 来自于 波波仔 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(21)" onmouseout="MouseoutDIVHIDE(21)">
+              <center class="empty" id="threecmhct21">　</center>
+              <img src="./image/content2_middle_collocation/d24.jpg"/>
+              <a class="cmhca4" id="threecmhca21" href="#">移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney21">149元</p>
+              <p class="cmhcp4" id="threecmhcp21">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide21">
+                  <h5 class="threedivhidep1" id="threedivhidep1_21">很薄，充电快，方便携带</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_21"> 来自于 CURGT丶FaKer 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(22)" onmouseout="MouseoutDIVHIDE(22)">
+              <center class="empty" id="threecmhct22">　</center>
+              <img src="./image/content2_middle_collocation/d25.jpg"/>
+              <a class="cmhca5" id="threecmhca22" href="#">移动电源20000mAh</a>
+              <p class="money" id="threemoney22">149元</p>
+              <p class="cmhcp5" id="threecmhcp22">5.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide22">
+                  <h5 class="threedivhidep1" id="threedivhidep1_22">以前一直使用10400的版本，买了这个之后，才知道有...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_22"> 来自于 呈现逐步 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(23)" onmouseout="MouseoutDIVHIDE(23)">
+              <center class="empty" id="threecmhct23">　</center>
+              <img src="./image/content2_middle_collocation/d27.jpg"/>
+              <a class="cmhca7" id="threecmhca23" href="#">10000mAh小米移动电源保护套</a>
+              <p class="money" id="threemoney23">19.9元</p>
+              <p class="cmhcp7" id="threecmhcp23">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide23">
+                  <h5 class="threedivhidep1" id="threedivhidep1_23">可好了，能有效的保护手机了，再也不用担心移动电...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_23"> 来自于 682837881 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(24)" onmouseout="MouseoutDIVHIDE(24)">
+              <center class="empty" id="threecmhct24">　</center>
+              <img src="./image/content2_middle_collocation/d28.jpg"/>
+              <a class="cmhca8" id="threecmhca24" href="#">小米插线板（3孔位+USB）</a>
+              <p class="money" id="threemoney24">49元</p>
+              <p class="cmhcp8" id="threecmhcp24">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide24">
+                  <h5 class="threedivhidep1" id="threedivhidep1_24">东西真心不错，用过最好用的插线板，做工外观没得挑剔，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_24"> 来自于 yinyin19891117 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(25)" onmouseout="MouseoutDIVHIDE(25)">
+              <center class="empty" id="threecmhct25">　</center>
+              <img src="./image/content2_middle_collocation/d29.jpg"/>
+              <a class="cmhca9" id="threecmhca25" href="#">小米USB充电器（4口）</a>
+              <p class="money" id="threemoney25">79元</p>
+              <p class="cmhcp9" id="threecmhcp25">8921人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide25">
+                  <h5 class="threedivhidep1" id="threedivhidep1_25">产品质量一如既往的好，小巧玲珑，方便携带，旅行必备</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_25"> 来自于 YY2TH 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(26)" onmouseout="MouseoutDIVHIDE(26)">
+              <center class="empty" id="threecmhct26">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d30.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca26" href="#">小米插线板..</a>
+              <p class="money" id="threemoney26">39元</p>
+              <p class="cmhcp10" id="threecmhcp26"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide26">
+                  <h5 class="threedivhidep1" id="threedivhidep1_26"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_26"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(27)" onmouseout="MouseoutDIVHIDE(27)">
+              <center class="empty" id="threecmhct27">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca27" href="#">浏览更多</a>
+              <p class="money" id="threemoney27"></p>
+              <p class="cmhcp11" id="threecmhcp27">电源</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide27">
+                  <h5 class="threedivhidep1" id="threedivhidep1_27"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_27"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_parts4">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(28)" onmouseout="MouseoutDIVHIDE(28)">
+              <center class="empty" id="threecmhct28">　</center>
+              <img src="./image/content2_middle_collocation/d32.jpg"/>
+              <a class="cmhca2" id="threecmhca28" href="#">SanDisk 16GB存储卡（Class4）</a>
+              <p class="money" id="threemoney28">26.9元</p>
+              <p class="cmhcp2" id="threecmhcp28">8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide28">
+                  <h5 class="threedivhidep1" id="threedivhidep1_28">物美价廉，正品行货，发货迅速</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_28"> 来自于 sharph 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(29)" onmouseout="MouseoutDIVHIDE(29)">
+              <center class="empty" id="threecmhct29">　</center>
+              <img src="./image/content2_middle_collocation/d33.jpg"/>
+              <a class="cmhca3" id="threecmhca29" href="#">原装快充套装</a>
+              <p class="money" id="threemoney29">58元</p>
+              <p class="cmhcp3" id="threecmhcp29">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide29">
+                  <h5 class="threedivhidep1" id="threedivhidep1_29">志银到此一游</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_29"> 来自于 志银 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(30)" onmouseout="MouseoutDIVHIDE(30)">
+              <center class="empty" id="threecmhct30">　</center>
+              <img src="./image/content2_middle_collocation/d34.jpg"/>
+              <a class="cmhca4" id="threecmhca30" href="#">彩虹5号电池（10粒装）</a>
+              <p class="money" id="threemoney30">9.9元</p>
+              <p class="cmhcp4" id="threecmhcp30">5.8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide30">
+                  <h5 class="threedivhidep1" id="threedivhidep1_30">彩虹的电量，彩虹的心情，彩虹的每一天</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_30"> 来自于 醉爱你HYA 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(31)" onmouseout="MouseoutDIVHIDE(31)">
+              <center class="empty" id="threecmhct31">　</center>
+              <img src="./image/content2_middle_collocation/d35.jpg"/>
+              <a class="cmhca5" id="threecmhca31" href="#">彩虹7号电池（10粒装）</a>
+              <p class="money" id="threemoney31">9.9元</p>
+              <p class="cmhcp5" id="threecmhcp31">4.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide31">
+                  <h5 class="threedivhidep1" id="threedivhidep1_31">好用，好看。。价格实惠</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_31"> 来自于 米米徳 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(32)" onmouseout="MouseoutDIVHIDE(32)">
+              <center class="empty" id="threecmhct32">　</center>
+              <img src="./image/content2_middle_collocation/d37.jpg"/>
+              <a class="cmhca7" id="threecmhca32" href="#">米兔手机U盘升级版 32GB</a>
+              <p class="money" id="threemoney32">79元</p>
+              <p class="cmhcp7" id="threecmhcp32">3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide32">
+                  <h5 class="threedivhidep1" id="threedivhidep1_32">超值正品，再也不会担心头那里时间久了坏掉，感觉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_32"> 来自于 香草忘忧 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(33)" onmouseout="MouseoutDIVHIDE(33)">
+              <center class="new" id="threecmhct33">新品</center>
+              <img src="./image/content2_middle_collocation/d38.jpg"/>
+              <a class="cmhca8" id="threecmhca33" href="#">镍氢充电电池套装</a>
+              <p class="money" id="threemoney33">88元</p>
+              <p class="cmhcp8" id="threecmhcp33">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide33">
+                  <h5 class="threedivhidep1" id="threedivhidep1_33">志银到此一游..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_33"> 来自于 志银 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(34)" onmouseout="MouseoutDIVHIDE(34)">
+              <center class="empty" id="threecmhct34">　</center>
+              <img src="./image/content2_middle_collocation/d39.jpg"/>
+              <a class="cmhca9" id="threecmhca34" href="#">小米车载充电器</a>
+              <p class="money" id="threemoney34">49元</p>
+              <p class="cmhcp9" id="threecmhcp34">3.4万评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide34">
+                  <h5 class="threedivhidep1" id="threedivhidep1_34">很好，个头小能量大，很满意</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_34"> 来自于 你再猜猜啊 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(35)" onmouseout="MouseoutDIVHIDE(35)">
+              <center class="empty" id="threecmhct35">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d40.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca35" href="#">红米2/红米2A能</a>
+              <p class="money" id="threemoney35">69元</p>
+              <p class="cmhcp10" id="threecmhcp35"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide35">
+                  <h5 class="threedivhidep1" id="threedivhidep1_35"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_35"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(36)" onmouseout="MouseoutDIVHIDE(36)">
+              <center class="empty" id="threecmhct36">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca36" href="#">浏览更多</a>
+              <p class="money" id="threemoney36"></p>
+              <p class="cmhcp11" id="threecmhcp36">电池储存卡</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide36">
+                  <h5 class="threedivhidep1" id="threedivhidep1_36"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_36"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+        </div>
+        <div id="content2_middle_periphery" class="content2_middle_collocation">  <!-- 中间第二大部分内容中周边信息 -->
+          <div class="content2_middle_collocation_top">
+            <p><span id="cmctspan3">周边</span></p>
+            <ul>
+              <a href="#" onmouseover="MouseoverCMCTTT(5)"><li class="cmctli5" id="cmctli5_3">箱包</li></a>
+              <a href="#" onmouseover="MouseoverCMCTTT(4)"><li class="cmctli4" id="cmctli4_3">生活周边</li></a>
+              <a href="#" onmouseover="MouseoverCMCTTT(3)"><li class="cmctli3" id="cmctli3_3">米兔</li></a>
+              <a href="#" onmouseover="MouseoverCMCTTT(2)"><li class="cmctli2" id="cmctli2_3">服装</li></a>
+              <a href="#" onmouseover="MouseoverCMCTTT(1)"><li class="cmctli1" id="cmctli1_3">热门</li></a>
+            </ul>
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_periphery1">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(1)" onmouseout="MouseoutDIVHIDE(1)">
+              <center class="empty" id="threecmhct1">　</center>
+              <img src="./image/content2_middle_collocation/d2.jpg"/>
+              <a class="cmhca2" id="threecmhca1" href="#">小米圈铁耳机 银色</a>
+              <p class="money" id="threemoney1">99元</p>
+              <p class="cmhcp2" id="threecmhcp1">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide1">
+                  <h5 class="threedivhidep1" id="threedivhidep1_1">客服妹子实话说吧！永远支持国产，永远支持小米。这圈铁...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_1">来自于 894039435 的评价</p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(2)" onmouseout="MouseoutDIVHIDE(2)">
+              <center class="" id="threecmhct2">免邮费</center>
+              <img src="./image/content2_middle_collocation/d3.jpg"/>
+              <a class="cmhca3" id="threecmhca2" href="#">小米插线板</a>
+              <p class="money" id="threemoney2">49元</p>
+              <p class="cmhcp3" id="threecmhcp2">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide2">
+                  <h5 class="threedivhidep1" id="threedivhidep1_2">做工沒的說，摸起來手感非常細膩，而且比起傳統的插線板...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_2"> 来自于 林岐城 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(3)" onmouseout="MouseoutDIVHIDE(3)">
+              <center class="empty" id="threecmhct3">　</center>
+              <img src="./image/content2_middle_collocation/d4.jpg"/>
+              <a class="cmhca4" id="threecmhca3" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney3">79元</p>
+              <p class="cmhcp4" id="threecmhcp3">9.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide3">
+                  <h5 class="threedivhidep1" id="threedivhidep1_3">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_3"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(4)" onmouseout="MouseoutDIVHIDE(4)">
+              <center class="new" id="threecmhct4">新品</center>
+              <img src="./image/content2_middle_collocation/d5.jpg"/>
+              <a class="cmhca5" id="threecmhca4" href="#">小米移动电源10000mAh高配套...</a>
+              <p class="money" id="threemoney4">169元</p>
+              <p class="cmhcp5" id="threecmhcp4">148人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide4">
+                  <h5 class="threedivhidep1" id="threedivhidep1_4">东西不错，特别轻，以前买过别的蓝牙耳机，带几天就不带...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_4"> 来自于 A@然 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(5)" onmouseout="MouseoutDIVHIDE(5)">
+              <center class="empty" id="threecmhct5">　</center>
+              <img src="./image/content2_middle_collocation/d7.jpg"/>
+              <a class="cmhca7" id="threecmhca5" href="#">小米移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney5">149元</p>
+              <p class="cmhcp7" id="threecmhcp5">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide5">
+                  <h5 class="threedivhidep1" id="threedivhidep1_5">手感超舒服，有USB C输入充电，以后不用到处换插头了</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_5"> 来自于 玻璃樽81 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(6)" onmouseout="MouseoutDIVHIDE(6)">
+              <center class="gift" id="threecmhct6">有赠品</center>
+              <img src="./image/content2_middle_collocation/d8.jpg"/>
+              <a class="cmhca8" id="threecmhca6" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney6">129元</p>
+              <p class="cmhcp8" id="threecmhcp6">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide6">
+                  <h5 class="threedivhidep1" id="threedivhidep1_6">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_6"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(7)" onmouseout="MouseoutDIVHIDE(7)">
+              <center class="" id="threecmhct7">免邮费</center>
+              <img src="./image/content2_middle_collocation/d9.jpg"/>
+              <a class="cmhca9" id="threecmhca7" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney7">129元</p>
+              <p class="cmhcp9" id="threecmhcp7">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide7">
+                  <h5 class="threedivhidep1" id="threedivhidep1_7">199能有这效果有点惊喜</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_7"> 来自于 efunliu 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(8)" onmouseout="MouseoutDIVHIDE(8)">
+              <center class="empty" id="threecmhct8">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d10.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca8" href="#">小米钢炮...</a>
+              <p class="money" id="threemoney8">99元</p>
+              <p class="cmhcp10" id="threecmhcp8"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide8">
+                  <h5 class="threedivhidep1" id="threedivhidep1_8"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_8"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(9)" onmouseout="MouseoutDIVHIDE(9)">
+              <center class="empty" id="threecmhct9">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca9" href="#">浏览更多</a>
+              <p class="money" id="threemoney9"></p>
+              <p class="cmhcp11" id="threecmhcp9">热门</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide9">
+                  <h5 class="threedivhidep1" id="threedivhidep1_9"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_9"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_periphery2">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(10)" onmouseout="MouseoutDIVHIDE(10)">
+              <center class="empty" id="threecmhct10">　</center>
+              <img src="./image/content2_middle_collocation/d12.jpg"/>
+              <a class="cmhca2" id="threecmhca10" href="#">小米圈铁耳机</a>
+              <p class="money" id="threemoney10">99元</p>
+              <p class="cmhcp2" id="threecmhcp10">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide10">
+                  <h5 class="threedivhidep1" id="threedivhidep1_10">一上手就试试，音质还不错，煲机后会更好</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_10"> 来自于 张杰奇 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(11)" onmouseout="MouseoutDIVHIDE(11)">
+              <center class="empty" id="threecmhct11">　</center>
+              <img src="./image/content2_middle_collocation/d13.jpg"/>
+              <a class="cmhca3" id="threecmhca11" href="#">小米胶囊耳机</a>
+              <p class="money" id="threemoney11">69元</p>
+              <p class="cmhcp3" id="threecmhcp11">1.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide11">
+                  <h5 class="threedivhidep1" id="threedivhidep1_11">拿到手，感觉很炫！试了一下，音质挺好！挺喜欢！5星..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_11"> 来自于 程桂兴吖 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(12)" onmouseout="MouseoutDIVHIDE(12)">
+              <center class="empty" id="threecmhct12">　</center>
+              <img src="./image/content2_middle_collocation/d14.jpg"/>
+              <a class="cmhca4" id="threecmhca12" href="#">小米活塞耳机 基础版</a>
+              <p class="money" id="threemoney12">29元</p>
+              <p class="cmhcp4" id="threecmhcp12">6.6万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide12">
+                  <h5 class="threedivhidep1" id="threedivhidep1_12">耳机佩戴舒服，颜色鲜艳，关键音质好，低音震撼。</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_12"> 来自于 薛卫山0501 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(13)" onmouseout="MouseoutDIVHIDE(13)">
+              <center class="empty" id="threecmhct13">　</center>
+              <img src="./image/content2_middle_collocation/d15.jpg"/>
+              <a class="cmhca5" id="threecmhca13" href="#">小米蓝牙耳机</a>
+              <p class="money" id="threemoney13">79元</p>
+              <p class="cmhcp5" id="threecmhcp13">9.4万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide13">
+                  <h5 class="threedivhidep1" id="threedivhidep1_13">小米的产品值得信赖，用了一段时间，无论是听歌，打电话...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_13"> 来自于 气功流 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(14)" onmouseout="MouseoutDIVHIDE(14)">
+              <center class="empty" id="threecmhct14">　</center>
+              <img src="./image/content2_middle_collocation/d17.jpg"/>
+              <a class="cmhca7" id="threecmhca14" href="#">小米小钢炮蓝牙音箱2</a>
+              <p class="money" id="threemoney14">129元</p>
+              <p class="cmhcp7" id="threecmhcp14">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide14">
+                  <h5 class="threedivhidep1" id="threedivhidep1_14">物流超快，包装一打开，我就闻到了一缕口红的清香，陶醉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_14"> 来自于 588262758 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(15)" onmouseout="MouseoutDIVHIDE(15)">
+              <center class="empty" id="threecmhct15">　</center>
+              <img src="./image/content2_middle_collocation/d18.jpg"/>
+              <a class="cmhca8" id="threecmhca15" href="#">方盒子音箱</a>
+              <p class="money" id="threemoney15">89元</p>
+              <p class="cmhcp8" id="threecmhcp15">1.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide15">
+                  <h5 class="threedivhidep1" id="threedivhidep1_15">音质真棒！比我带低音炮的笔记本放音乐音质还好!哈哈！...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_15"> 来自于 Homic 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(16)" onmouseout="MouseoutDIVHIDE(16)">
+              <center class="empty" id="threecmhct16">　</center>
+              <img src="./image/content2_middle_collocation/d19.jpg"/>
+              <a class="cmhca9" id="threecmhca16" href="#">小米蓝牙音箱</a>
+              <p class="money" id="threemoney16">199元</p>
+              <p class="cmhcp9" id="threecmhcp16">2万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide16">
+                  <h5 class="threedivhidep1" id="threedivhidep1_16">还可以插内存卡，可以插线播放，音质很棒，如果体积大点...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_16"> 来自于 422979039 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(17)" onmouseout="MouseoutDIVHIDE(17)">
+              <center class="empty" id="threecmhct17">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d20.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca17" href="#">睿米车载蓝</a>
+              <p class="money" id="threemoney17">69元</p>
+              <p class="cmhcp10" id="threecmhcp17"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide17">
+                  <h5 class="threedivhidep1" id="threedivhidep1_17"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_17"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(18)" onmouseout="MouseoutDIVHIDE(18)">
+              <center class="empty" id="threecmhct18">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca18" href="#">浏览更多</a>
+              <p class="money" id="threemoney18"></p>
+              <p class="cmhcp11" id="threecmhcp18">耳机音箱</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide18">
+                  <h5 class="threedivhidep1" id="threedivhidep1_18"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_18"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_periphery3">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(19)" onmouseout="MouseoutDIVHIDE(19)">
+              <center class="empty" id="threecmhct19">　</center>
+              <img src="./image/content2_middle_collocation/d22.jpg"/>
+              <a class="cmhca2" id="threecmhca19" href="#">移动电源5000mAh</a>
+              <p class="money" id="threemoney19">49元</p>
+              <p class="cmhcp2" id="threecmhcp19">9.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide19">
+                  <h5 class="threedivhidep1" id="threedivhidep1_19">之前都不知道，还以为是18650电芯的。拿到手...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_19"> 来自于 ywtdzh 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(20)" onmouseout="MouseoutDIVHIDE(20)">
+              <center class="empty" id="threecmhct20">　</center>
+              <img src="./image/content2_middle_collocation/d23.jpg"/>
+              <a class="cmhca3" id="threecmhca20" href="#">小米移动电源10000mAh高配...</a>
+              <p class="money" id="threemoney20">169元</p>
+              <p class="cmhcp3" id="threecmhcp20">157人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide20">
+                  <h5 class="threedivhidep1" id="threedivhidep1_20">一直想买这款移动电源，只是星空灰色对于一个女生来说，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_20"> 来自于 波波仔 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(21)" onmouseout="MouseoutDIVHIDE(21)">
+              <center class="empty" id="threecmhct21">　</center>
+              <img src="./image/content2_middle_collocation/d24.jpg"/>
+              <a class="cmhca4" id="threecmhca21" href="#">移动电源10000mAh 高配版</a>
+              <p class="money" id="threemoney21">149元</p>
+              <p class="cmhcp4" id="threecmhcp21">2.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide21">
+                  <h5 class="threedivhidep1" id="threedivhidep1_21">很薄，充电快，方便携带</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_21"> 来自于 CURGT丶FaKer 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(22)" onmouseout="MouseoutDIVHIDE(22)">
+              <center class="empty" id="threecmhct22">　</center>
+              <img src="./image/content2_middle_collocation/d25.jpg"/>
+              <a class="cmhca5" id="threecmhca22" href="#">移动电源20000mAh</a>
+              <p class="money" id="threemoney22">149元</p>
+              <p class="cmhcp5" id="threecmhcp22">5.3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide22">
+                  <h5 class="threedivhidep1" id="threedivhidep1_22">以前一直使用10400的版本，买了这个之后，才知道有...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_22"> 来自于 呈现逐步 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(23)" onmouseout="MouseoutDIVHIDE(23)">
+              <center class="empty" id="threecmhct23">　</center>
+              <img src="./image/content2_middle_collocation/d27.jpg"/>
+              <a class="cmhca7" id="threecmhca23" href="#">10000mAh小米移动电源保护套</a>
+              <p class="money" id="threemoney23">19.9元</p>
+              <p class="cmhcp7" id="threecmhcp23">2.1万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide23">
+                  <h5 class="threedivhidep1" id="threedivhidep1_23">可好了，能有效的保护手机了，再也不用担心移动电...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_23"> 来自于 682837881 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(24)" onmouseout="MouseoutDIVHIDE(24)">
+              <center class="empty" id="threecmhct24">　</center>
+              <img src="./image/content2_middle_collocation/d28.jpg"/>
+              <a class="cmhca8" id="threecmhca24" href="#">小米插线板（3孔位+USB）</a>
+              <p class="money" id="threemoney24">49元</p>
+              <p class="cmhcp8" id="threecmhcp24">25.7万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide24">
+                  <h5 class="threedivhidep1" id="threedivhidep1_24">东西真心不错，用过最好用的插线板，做工外观没得挑剔，...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_24"> 来自于 yinyin19891117 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(25)" onmouseout="MouseoutDIVHIDE(25)">
+              <center class="empty" id="threecmhct25">　</center>
+              <img src="./image/content2_middle_collocation/d29.jpg"/>
+              <a class="cmhca9" id="threecmhca25" href="#">小米USB充电器（4口）</a>
+              <p class="money" id="threemoney25">79元</p>
+              <p class="cmhcp9" id="threecmhcp25">8921人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide25">
+                  <h5 class="threedivhidep1" id="threedivhidep1_25">产品质量一如既往的好，小巧玲珑，方便携带，旅行必备</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_25"> 来自于 YY2TH 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(26)" onmouseout="MouseoutDIVHIDE(26)">
+              <center class="empty" id="threecmhct26">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d30.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca26" href="#">小米插线板..</a>
+              <p class="money" id="threemoney26">39元</p>
+              <p class="cmhcp10" id="threecmhcp26"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide26">
+                  <h5 class="threedivhidep1" id="threedivhidep1_26"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_26"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(27)" onmouseout="MouseoutDIVHIDE(27)">
+              <center class="empty" id="threecmhct27">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca27" href="#">浏览更多</a>
+              <p class="money" id="threemoney27"></p>
+              <p class="cmhcp11" id="threecmhcp27">电源</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide27">
+                  <h5 class="threedivhidep1" id="threedivhidep1_27"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_27"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_periphery4">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(28)" onmouseout="MouseoutDIVHIDE(28)">
+              <center class="empty" id="threecmhct28">　</center>
+              <img src="./image/content2_middle_collocation/d32.jpg"/>
+              <a class="cmhca2" id="threecmhca28" href="#">SanDisk 16GB存储卡（Class4）</a>
+              <p class="money" id="threemoney28">26.9元</p>
+              <p class="cmhcp2" id="threecmhcp28">8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide28">
+                  <h5 class="threedivhidep1" id="threedivhidep1_28">物美价廉，正品行货，发货迅速</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_28"> 来自于 sharph 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(29)" onmouseout="MouseoutDIVHIDE(29)">
+              <center class="empty" id="threecmhct29">　</center>
+              <img src="./image/content2_middle_collocation/d33.jpg"/>
+              <a class="cmhca3" id="threecmhca29" href="#">原装快充套装</a>
+              <p class="money" id="threemoney29">58元</p>
+              <p class="cmhcp3" id="threecmhcp29">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide29">
+                  <h5 class="threedivhidep1" id="threedivhidep1_29">志银到此一游</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_29"> 来自于 志银 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(30)" onmouseout="MouseoutDIVHIDE(30)">
+              <center class="empty" id="threecmhct30">　</center>
+              <img src="./image/content2_middle_collocation/d34.jpg"/>
+              <a class="cmhca4" id="threecmhca30" href="#">彩虹5号电池（10粒装）</a>
+              <p class="money" id="threemoney30">9.9元</p>
+              <p class="cmhcp4" id="threecmhcp30">5.8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide30">
+                  <h5 class="threedivhidep1" id="threedivhidep1_30">彩虹的电量，彩虹的心情，彩虹的每一天</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_30"> 来自于 醉爱你HYA 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(31)" onmouseout="MouseoutDIVHIDE(31)">
+              <center class="empty" id="threecmhct31">　</center>
+              <img src="./image/content2_middle_collocation/d35.jpg"/>
+              <a class="cmhca5" id="threecmhca31" href="#">彩虹7号电池（10粒装）</a>
+              <p class="money" id="threemoney31">9.9元</p>
+              <p class="cmhcp5" id="threecmhcp31">4.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide31">
+                  <h5 class="threedivhidep1" id="threedivhidep1_31">好用，好看。。价格实惠</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_31"> 来自于 米米徳 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(32)" onmouseout="MouseoutDIVHIDE(32)">
+              <center class="empty" id="threecmhct32">　</center>
+              <img src="./image/content2_middle_collocation/d37.jpg"/>
+              <a class="cmhca7" id="threecmhca32" href="#">米兔手机U盘升级版 32GB</a>
+              <p class="money" id="threemoney32">79元</p>
+              <p class="cmhcp7" id="threecmhcp32">3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide32">
+                  <h5 class="threedivhidep1" id="threedivhidep1_32">超值正品，再也不会担心头那里时间久了坏掉，感觉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_32"> 来自于 香草忘忧 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(33)" onmouseout="MouseoutDIVHIDE(33)">
+              <center class="new" id="threecmhct33">新品</center>
+              <img src="./image/content2_middle_collocation/d38.jpg"/>
+              <a class="cmhca8" id="threecmhca33" href="#">镍氢充电电池套装</a>
+              <p class="money" id="threemoney33">88元</p>
+              <p class="cmhcp8" id="threecmhcp33">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide33">
+                  <h5 class="threedivhidep1" id="threedivhidep1_33">志银到此一游..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_33"> 来自于 志银 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(34)" onmouseout="MouseoutDIVHIDE(34)">
+              <center class="empty" id="threecmhct34">　</center>
+              <img src="./image/content2_middle_collocation/d39.jpg"/>
+              <a class="cmhca9" id="threecmhca34" href="#">小米车载充电器</a>
+              <p class="money" id="threemoney34">49元</p>
+              <p class="cmhcp9" id="threecmhcp34">3.4万评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide34">
+                  <h5 class="threedivhidep1" id="threedivhidep1_34">很好，个头小能量大，很满意</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_34"> 来自于 你再猜猜啊 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(35)" onmouseout="MouseoutDIVHIDE(35)">
+              <center class="empty" id="threecmhct35">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d40.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca35" href="#">红米2/红米2A能</a>
+              <p class="money" id="threemoney35">69元</p>
+              <p class="cmhcp10" id="threecmhcp35"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide35">
+                  <h5 class="threedivhidep1" id="threedivhidep1_35"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_35"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(36)" onmouseout="MouseoutDIVHIDE(36)">
+              <center class="empty" id="threecmhct36">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca36" href="#">浏览更多</a>
+              <p class="money" id="threemoney36"></p>
+              <p class="cmhcp11" id="threecmhcp36">电池储存卡</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide36">
+                  <h5 class="threedivhidep1" id="threedivhidep1_36"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_36"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+          <div class="content2_middle_hardware_content" id="content2_middle_periphery5">
+            <div class="cmhacd1" id="cmhacd1"><img src="image/content2_middle_collocation/d1.jpg"></div>
+            <div class="cmhacd2" id="cmhacd2" onmouseover="MouseoverDIVHIDE(28)" onmouseout="MouseoutDIVHIDE(28)">
+              <center class="empty" id="threecmhct28">　</center>
+              <img src="./image/content2_middle_collocation/d32.jpg"/>
+              <a class="cmhca2" id="threecmhca28" href="#">SanDisk 16GB存储卡（Class4）</a>
+              <p class="money" id="threemoney28">26.9元</p>
+              <p class="cmhcp2" id="threecmhcp28">8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide28">
+                  <h5 class="threedivhidep1" id="threedivhidep1_28">物美价廉，正品行货，发货迅速</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_28"> 来自于 sharph 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd3" id="cmhacd3" onmouseover="MouseoverDIVHIDE(29)" onmouseout="MouseoutDIVHIDE(29)">
+              <center class="empty" id="threecmhct29">　</center>
+              <img src="./image/content2_middle_collocation/d33.jpg"/>
+              <a class="cmhca3" id="threecmhca29" href="#">原装快充套装</a>
+              <p class="money" id="threemoney29">58元</p>
+              <p class="cmhcp3" id="threecmhcp29">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide29">
+                  <h5 class="threedivhidep1" id="threedivhidep1_29">志银到此一游</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_29"> 来自于 志银 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd4" id="cmhacd4" onmouseover="MouseoverDIVHIDE(30)" onmouseout="MouseoutDIVHIDE(30)">
+              <center class="empty" id="threecmhct30">　</center>
+              <img src="./image/content2_middle_collocation/d34.jpg"/>
+              <a class="cmhca4" id="threecmhca30" href="#">彩虹5号电池（10粒装）</a>
+              <p class="money" id="threemoney30">9.9元</p>
+              <p class="cmhcp4" id="threecmhcp30">5.8万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide30">
+                  <h5 class="threedivhidep1" id="threedivhidep1_30">彩虹的电量，彩虹的心情，彩虹的每一天</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_30"> 来自于 醉爱你HYA 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd5" id="cmhacd5" onmouseover="MouseoverDIVHIDE(31)" onmouseout="MouseoutDIVHIDE(31)">
+              <center class="empty" id="threecmhct31">　</center>
+              <img src="./image/content2_middle_collocation/d35.jpg"/>
+              <a class="cmhca5" id="threecmhca31" href="#">彩虹7号电池（10粒装）</a>
+              <p class="money" id="threemoney31">9.9元</p>
+              <p class="cmhcp5" id="threecmhcp31">4.5万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide31">
+                  <h5 class="threedivhidep1" id="threedivhidep1_31">好用，好看。。价格实惠</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_31"> 来自于 米米徳 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd5" id="cmhacd5"></div> -->
+            <div class="cmhacd6" id="cmhacd6_1"><img src="image/content2_middle_collocation/d6.jpg"></div>
+            <div class="cmhacd7" id="cmhacd7" onmouseover="MouseoverDIVHIDE(32)" onmouseout="MouseoutDIVHIDE(32)">
+              <center class="empty" id="threecmhct32">　</center>
+              <img src="./image/content2_middle_collocation/d37.jpg"/>
+              <a class="cmhca7" id="threecmhca32" href="#">米兔手机U盘升级版 32GB</a>
+              <p class="money" id="threemoney32">79元</p>
+              <p class="cmhcp7" id="threecmhcp32">3万人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide32">
+                  <h5 class="threedivhidep1" id="threedivhidep1_32">超值正品，再也不会担心头那里时间久了坏掉，感觉...</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_32"> 来自于 香草忘忧 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd8" id="cmhacd8" onmouseover="MouseoverDIVHIDE(33)" onmouseout="MouseoutDIVHIDE(33)">
+              <center class="new" id="threecmhct33">新品</center>
+              <img src="./image/content2_middle_collocation/d38.jpg"/>
+              <a class="cmhca8" id="threecmhca33" href="#">镍氢充电电池套装</a>
+              <p class="money" id="threemoney33">88元</p>
+              <p class="cmhcp8" id="threecmhcp33">1人评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide33">
+                  <h5 class="threedivhidep1" id="threedivhidep1_33">志银到此一游..</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_33"> 来自于 志银 ... </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd9" id="cmhacd9" onmouseover="MouseoverDIVHIDE(34)" onmouseout="MouseoutDIVHIDE(34)">
+              <center class="empty" id="threecmhct34">　</center>
+              <img src="./image/content2_middle_collocation/d39.jpg"/>
+              <a class="cmhca9" id="threecmhca34" href="#">小米车载充电器</a>
+              <p class="money" id="threemoney34">49元</p>
+              <p class="cmhcp9" id="threecmhcp34">3.4万评价</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide34">
+                  <h5 class="threedivhidep1" id="threedivhidep1_34">很好，个头小能量大，很满意</h5>
+                  <p class="threedivhidep2" id="threedivhidep2_34"> 来自于 你再猜猜啊 的评价 </p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd10" id="cmhacd10" onmouseover="MouseoverDIVHIDE(35)" onmouseout="MouseoutDIVHIDE(35)">
+              <center class="empty" id="threecmhct35">　</center>
+              <img class="threecmhcm10" src="./image/content2_middle_collocation/d40.jpg"/>
+              <br/>
+              <a class="cmhca10" id="threecmhca35" href="#">红米2/红米2A能</a>
+              <p class="money" id="threemoney35">69元</p>
+              <p class="cmhcp10" id="threecmhcp35"></p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide35">
+                  <h5 class="threedivhidep1" id="threedivhidep1_35"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_35"></p>
+                </div>
+              </a>
+            </div>
+            <div class="cmhacd11" id="cmhacd11" onmouseover="MouseoverDIVHIDE(36)" onmouseout="MouseoutDIVHIDE(36)">
+              <center class="empty" id="threecmhct36">　</center>
+              <img class="threecmhcm11" src="./image/content2_middle_collocation/d11.jpg"/>
+              <br/>
+              <a class="cmhca11" id="threecmhca36" href="#">浏览更多</a>
+              <p class="money" id="threemoney36"></p>
+              <p class="cmhcp11" id="threecmhcp36">电池储存卡</p>
+              <a class="adivhide" href="#">
+                <div class="divhide" id="divhide36">
+                  <h5 class="threedivhidep1" id="threedivhidep1_36"></h5>
+                  <p class="threedivhidep2" id="threedivhidep2_36"></p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="cmhacd11" id="cmhacd11"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom1">  <!-- 底部相关信息模块一 -->
+      <div id="bottom1_middle">  <!-- 底部相关信息模块一中间所有内容 -->
+      </div>
+    </div>
+    <div id="bottom2">  <!-- 底部相关信息模块二 -->
+      <div id="bottom2_middle">  <!-- 底部相关信息模块二中间所有内容 -->
+      </div>
+    </div>
+    <!-- <script type="text/javascript" src="./js/index.js"></script> -->
+  </body>
+ </html>
